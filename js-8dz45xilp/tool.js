@@ -326,7 +326,7 @@ a:hover {
 var author = sessionStorage.getItem("author");
 var authProfile = sessionStorage.getItem("authProfile");
 var authName = sessionStorage.getItem("authName");
-var authLink = "localhost/bfigureddit/auth/" + authName;
+var authLink = "https://backend.figureddit.com/auth/" + authName;
 window.history.replaceState('new', 'title', authLink);
 
 
@@ -833,9 +833,9 @@ function submitContent() {
 	//check if at least 3 entries already
 	checkChildren();
 
-	if (previewed == true) {
+	if (boolSubmit == true) {
 
-		if (boolSubmit == true) {
+		if (previewed == true) {
 
 			var inputChecker = [];
 			var initBool = true;
@@ -907,12 +907,13 @@ function submitContent() {
 		}
 
 		else {
-			alert("Please add at least 3 listings before preview");
+			alert("Please preview your work before submitting");
 		}
 	}
 
 	else {
-		alert("Please preview your work before submitting");
+		
+		alert("Please add at least 3 listings before preview");
 	}
 }
 
