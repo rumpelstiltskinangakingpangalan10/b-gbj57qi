@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html id="mainHTML" style="scroll-behavior: smooth;">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width , initial-scale=1.0">
+    
+	<link rel="preload" href="../css-7z4p5kl/style.css" as="style">
+	<link rel="stylesheet", href="../css-7z4p5kl/style.css"> 
+	<link rel="icon" type="image/x-icon" href="https://figureddit.com/icons-k7hs75z/favicon.svg">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap" rel="stylesheet">
+
+	<link rel="preload" href="../js-8dz45xilp/preview.js" as="script">
+    <link rel="preload" href="../js-8dz45xilp/tool.js" as="script">
+
+</head>
+	
+<body style="min-width: 360px; padding-top: 10em;">
+
+		<div id="header">
+			<div class="logo" id="Home"><img src="https://figureddit.com/icons-k7hs75z/logo.svg"><h1>figureddit.</h1></div>
+			<div id="btnPreview"><h4>Preview</h4></div>
+		</div>
+
+		<div style="display: flex; justify-content: center;">
+
+			<div id="preview">
+				
+				<div id="divIntro" class="divChild">
+					<h2 class= "divChildHeader">Title</h2>
+					<input type="text" id="mainTitle" class="textTitle" placeholder="Main Article Title">
+					<select id="selCategory">
+						<option>Category</option>
+						<option value="Shows">Shows</option>
+						<option value="Movies">Movies</option>
+						<option value="Games">Games</option>
+						<option value="Tech">Tech</option>
+						<option value="Health">Health</option>
+					</select>
+					<textarea id="Intro" class="textarea" placeholder="Intro (1 paragraph only)" cols="44" rows="8" oninput="checkParagraph(this.value, this.id)"></textarea>
+					<div style="display: flex; justify-content: right; width:600px; margin-top: 0.5em; margin-bottom: 0.5em;"><h5 id="lblIntro" style="color: lightgray; font-weight: 500;">0 paragraph</h5></div>
+				</div>
+
+				<div id="divConclusion" class="divChild">
+					<h2 class= "divChildHeader">Conclusion</h2>
+					<textarea id="Conclusion" class="textarea" placeholder="Conclusion (1 paragraph only)" cols="44" rows="8" oninput="checkParagraph(this.value, this.id)"></textarea>
+					<div style="display: flex; justify-content: right; width:600px; margin-top: 0.5em; margin-bottom: 0.5em;"><h5 id="lblConclusion" style="color: lightgray; font-weight: 500;">0 paragraph</h5></div>
+				</div>
+				
+			</div>
+			
+			<div id="toolBar">
+				<div id="plus" class="btnTool" title="Add new entry" onclick="addEntry()"><h1>&#43;</h1></div>
+				<div id="minus" class="btnTool" title="Remove last entry" onclick="removeEntry()"><h1>&#8722;</h1></div>
+				<div id="submit" class="btnTool" title="Submit (min. 3 entries)"><h1>&#9993;</h1></div>
+			</div>
+
+		</div>
+
+        <script type="text/javascript" src="../js-8dz45xilp/tool.js"></script>
+        <script type="text/javascript" src="../js-8dz45xilp/preview.js"></script>
+</body>
+</html>
