@@ -340,13 +340,13 @@ function checkEntry() {
 
     if(previewChild > 2) {
 
-        document.getElementById("minus").firstChild.style.color = "#474747";
+        document.getElementById("minus").firstElementChild.style.color = "#474747";
 
 	}
 
     else {
 
-        document.getElementById("minus").firstChild.style.color = "lightgrey";
+        document.getElementById("minus").firstElementChild.style.color = "lightgrey";
     }
 	
 }
@@ -437,7 +437,7 @@ function checkChildren() {
 
 		boolPreview = false;
 		boolSubmit = false;
-        document.getElementById("submit").firstChild.style.color = "lightgrey";
+        document.getElementById("submit").firstElementChild.style.color = "lightgrey";
 
     }
 
@@ -445,7 +445,7 @@ function checkChildren() {
 
 		boolPreview = true;
 		boolSubmit = true;
-        document.getElementById("submit").firstChild.style.color = "#474747";
+        document.getElementById("submit").firstElementChild.style.color = "#474747";
 
     }
 
@@ -520,6 +520,7 @@ function switchPreview() {
 	conclusion = document.getElementById("conclusion").value;
 	keywords = document.getElementById("keywords").value;
 	plagiarism = document.getElementById("plagiarism").value;
+	urlTitle = ("https://figureddit.com/articles/" + category + "/" + (mainTitle.replace(" ", "-"))).toLowerCase();
 
 
 	document.getElementById("preview").style.display = "none";
@@ -538,6 +539,32 @@ function switchPreview() {
 				<meta name = "keywords" content="figureddit, ${keywords}">
 				<meta name = "author" content = "${author} - Figureddit">
 				<meta name = "description" content = "${intro}">
+
+				<meta property="og:site_name" content="Figureddit" />
+				<meta property=“og:title” content=“${mainTitle}" />
+				<meta property="og:description" content="${intro}" />
+				<meta property="og:url" content="${urlTitle}" />
+				<meta property="og:type" content="article" />
+				<meta property="article:publisher" content="https://figureddit.com" />
+				<meta property="article:section" content="tips and reviews" />
+				<meta property="article:tag" content="tips and reviews" />
+				<meta property="og:image" content="${imgLink}" />
+				<meta property="og:image:secure_url" content="${imgLink}" />
+				<meta property="og:image:width" content="760" />
+				<meta property="og:image:height" content="428" />
+				<meta property="twitter:card" content="summary" />
+				<meta name="twitter:title" content="${mainTitle}">
+				<meta property="twitter:image" content="${imgLink}" />
+				<meta property="twitter:site" content="@figureddit" />
+
+				<link rel="canonical" href="https://figureddit.com">
+				<link rel="canonical" href="http://figureddit.com">
+				<link rel="canonical" href="https://www.figureddit.com">
+				<link rel="canonical" href="http://www.figureddit.com">
+				<link rel="canonical" href="https://figuredit.com">
+				<link rel="canonical" href="http://figuredit.com">
+				<link rel="canonical" href="https://www.figuredit.com">
+				<link rel="canonical" href="http://www.figuredit.com">
 				
 				<link rel="preload" href="https://figureddit.com/css-c9t67il/style.css" as="style">
 				<link rel="preload" href="https://figureddit.com/css-c9t67il/articles.css" as="style">
@@ -697,7 +724,7 @@ function switchPreview() {
 
 		entryHeader =`
 			<!--SHOW IMAGE (DON'T FORGET ALT+TEXT)-->
-			<img class="showImage" src="${imgLink}" alt="${entryTitle}_${mainTitle}-Figureddit">
+			<img class="showImage" src="${imgLink}" alt="${entryTitle}-${mainTitle}-${keywords}-Figureddit">
 			<!--[EDIT]ITEM-->
 			<h1 class="itemTitle">${i}. <a class="two" href="${itemLink}">${entryTitle}</a></h1><br>
 			<!--[EDIT]SUPPORTING DETAILS-->
@@ -775,8 +802,6 @@ function previewDraft(id, name) {
 					initBool &&= (inputChecker[i][z].value!="");
 					initBool &&= (inputChecker[3][0].value!="Category");
 
-					console.log(initBool);
-
 					if(inputChecker[i][z].value =="")  {
 						inputChecker[i][z].style.border = "1px solid salmon";
 					}
@@ -796,8 +821,8 @@ function previewDraft(id, name) {
 			
 				previewed = true;
 				button.setAttribute("name", "edit");
-				button.firstChild.innerHTML = "Edit";
-				button.firstChild.style.color = "#474747";
+				button.firstElementChild.innerHTML = "Edit";
+				button.firstElementChild.style.color = "#474747";
 				button.style.backgroundColor = "white";	
 
 				switchPreview();
@@ -816,8 +841,8 @@ function previewDraft(id, name) {
 	else {
 		
 		button.setAttribute("name", "preview");
-		button.firstChild.innerHTML = "Preview";
-		button.firstChild.style.color = "white";
+		button.firstElementChild.innerHTML = "Preview";
+		button.firstElementChild.style.color = "white";
 		button.style.backgroundColor = "#474747";
 		button.style.border = "1px solid white";
 
