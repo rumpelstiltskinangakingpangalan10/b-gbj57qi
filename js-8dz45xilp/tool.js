@@ -131,6 +131,7 @@ a:hover {
     width: 140px;
     height: auto;
     display: flex;
+	padding:10px;
     background-color: #474747;
     border: 1px solid #474747;
 }
