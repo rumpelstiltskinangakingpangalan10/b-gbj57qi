@@ -130,8 +130,7 @@ a:hover {
 .divCheck {
     width: 140px;
     height: auto;
-    display: grid;
-    grid-template-rows: 1fr, 1fr, 1fr;
+    display: flex;
     background-color: #474747;
     border: 1px solid #474747;
 }
@@ -739,7 +738,7 @@ function switchPreview() {
 			`<!--AFFILIATE LINK-->
 			<a class="three" href="${itemLink}"><div class="affiliateBox">
 				<div class="divCheck">
-					<h4>${remark.toUpperCase()}</h4>
+					<div style="margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto; width: auto; height: auto;"><h4>${remark.toUpperCase().replace(" ", "\n")}</h4></div>
 				</div>
 				<div class="divRating">
 					<h1>Get ${entryTitle}</h1>
