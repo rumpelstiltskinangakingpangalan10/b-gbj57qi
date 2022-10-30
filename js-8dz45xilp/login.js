@@ -1,4 +1,8 @@
-
+document.getElementById("p").value = "";
+document.getElementById("u").value = "";
+sessionStorage.setItem("authName", "");
+sessionStorage.setItem("author", "");
+sessionStorage.setItem("authProfile", "");
 
 
 function login() {
@@ -31,12 +35,10 @@ function login() {
                     if(prevID[1] == u.value) {
                         
                         if(prevID[2] == p.value) {
-                            u.value = "";
-                            p.value = "";
                             sessionStorage.setItem("authName", prevID[1]);
                             sessionStorage.setItem("author", prevID[4]);
                             sessionStorage.setItem("authProfile", prevID[0]);
-                            window.location.href = "./auth/uq8Z4xtyz2-3sd2j238ds-z38sh9y12hs8"
+                            window.location.href = "backend.figureddit.com/auth/uq8Z4xtyz2-3sd2j238ds-z38sh9y12hs8"
                         }
                         
                         else{
