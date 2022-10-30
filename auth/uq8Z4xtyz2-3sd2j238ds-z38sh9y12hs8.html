@@ -1,78 +1,74 @@
 <!DOCTYPE html>
 <html id="mainHTML" style="scroll-behavior: smooth;">
-<head>
-    <title>Figureddit | Author</title>
-    <meta charset="UTF-8">
-    <meta name = "viewport" content="width=device-width , initial-scale=1.0">
-    
-	<link rel="preload" href="https://backend.figureddit.com/css-7z4p5kl/style.css" as="style">
-	<link rel="stylesheet", href="https://backend.figureddit.com/css-7z4p5kl/style.css">
-	<link rel="preload" href="https://figureddit.com/css-c9t67il/articles.css" as="style">
-	<link rel="stylesheet", href="https://figureddit.com/css-c9t67il/articles.css"> 
-	<link rel="icon" type="image/x-icon" href="https://figureddit.com/icons-k7hs75z/favicon.svg">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	
-    <link rel="preload" href="https://backend.figureddit.com/js-8dz45xilp/tool.js" as="script">
-
-</head>
-	
-<body style="min-width: 360px; padding-top: 10em;">
-
-		<div id="header">
-			<div class="logo" id="Home"><img src="https://figureddit.com/icons-k7hs75z/logo.svg"><h1>figureddit.</h1></div>
-			<div id="btnPreview" name="preview" onclick="previewDraft(this.id,this.attributes['name'].value)"><h4>Preview</h4></div>
-		</div>
-
-		<div style="display: flex; justify-content: center;">
-			<style id="intStyle"></style>
-
-			<div id="contents" style="display: none;">
-
-			</div>
-
-			<div id="preview">
-				
-				<div id="divIntro" class="divChild">
-					<h2 class= "divChildHeader" style="text-align: center;">Title</h2>
-					<input type="text" id="mainTitle" class="textTitle" placeholder="Main Article Title" oninput="validateValue(this.id)">
-					<select id="selCategory" oninput="validateValue(this.id)">
-						<option disabled selected>Category</option>
-						<option value="Shows">Shows</option>
-						<option value="Movies">Movies</option>
-						<option value="Games">Games</option>
-						<option value="Tech">Tech</option>
-						<option value="Health">Health</option>
-					</select>
-					<input type="text" id="keywords" class="text" placeholder="Add keywords (separated by comma)" oninput="validateValue(this.id)">
-					<textarea id="intro" class="textarea" placeholder="Intro (1 paragraph only)" cols="44" rows="8" oninput="checkParagraph(this.value, this.id)"></textarea>
-					<div style="display: flex; justify-content: right; width:600px; margin-top: 0.5em; margin-bottom: 0.5em;"><h5 id="lblintro" style="color: lightgray; font-weight: 500;">0 paragraph</h5></div>
-				</div>
-
-				<div id="divConclusion" class="divChild" style="text-align: center;">
-					<h2 class= "divChildHeader">Conclusion</h2>
-					<textarea id="conclusion" class="textarea" placeholder="Conclusion (1 paragraph only)" cols="44" rows="8" oninput="checkParagraph(this.value, this.id)"></textarea>
-					<div style="display: flex; justify-content: right; width:600px; margin-top: 0.5em; margin-bottom: 0.5em;"><h5 id="lblconclusion" style="color: lightgray; font-weight: 500;">0 paragraph</h5></div>
-					<input type="url" id="plagiarism" class="text" placeholder="Plagiarism Checker link" oninput="validateValue(this.id)">
-				</div>
-				
-			</div>
-			
-			<div class="toolBar">
-				<div id="plus" class="btnTool" title="Add new entry" onclick="addEntry()"><h1>&#43;</h1></div>
-				<div id="minus" class="btnTool" title="Remove last entry" onclick="removeEntry()"><h1>&#8722;</h1></div>
-				<div id="submit" class="btnTool" title="Submit (min. 3 lists)" onclick="submitContent()"><h1>&#9993;</h1></div>
-				
-			</div>
-
-			<div class="logoutBar">
-				<div id="logout" class="btnTool" title="Logout" onclick="logout()"><i class="fa fa-sign-out" style="font-size:32px;color:salmon; margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;"></i></div>
-			</div>
-
-
-		</div>
-
-        <script type="text/javascript" src="https://backend.figureddit.com/js-8dz45xilp/tool.js"></script>
-</body>
+   <head>
+      <title>Figureddit | Author</title>
+      <meta charset="UTF-8">
+      <meta name = "viewport" content="width=device-width , initial-scale=1.0">
+      <link rel="preload" href="https://backend.figureddit.com/css-7z4p5kl/style.css" as="style">
+      <link rel="stylesheet", href="https://backend.figureddit.com/css-7z4p5kl/style.css">
+      <link rel="preload" href="https://figureddit.com/css-c9t67il/articles.css" as="style">
+      <link rel="stylesheet", href="https://figureddit.com/css-c9t67il/articles.css">
+      <link rel="icon" type="image/x-icon" href="https://figureddit.com/icons-k7hs75z/favicon.svg">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="preload" href="https://backend.figureddit.com/js-8dz45xilp/tool.js" as="script">
+   </head>
+   <body style="min-width: 360px; padding-top: 10em;">
+      <div id="header">
+         <div class="logo" id="Home">
+            <img src="https://figureddit.com/icons-k7hs75z/logo.svg">
+            <h1>figureddit.</h1>
+         </div>
+         <div id="btnPreview" name="preview" onclick="previewDraft(this.id,this.attributes['name'].value)">
+            <h4>Preview</h4>
+         </div>
+      </div>
+      <div style="display: flex; justify-content: center;">
+         <style id="intStyle"></style>
+         <div id="contents" style="display: none;">
+         </div>
+         <div id="preview">
+            <div id="divIntro" class="divChild">
+               <h2 class= "divChildHeader" style="text-align: center;">Title</h2>
+               <input type="text" id="mainTitle" class="textTitle" placeholder="Main Article Title" oninput="validateValue(this.id)">
+               <select id="selCategory" oninput="validateValue(this.id)">
+                  <option disabled selected>Category</option>
+                  <option value="Shows">Shows</option>
+                  <option value="Movies">Movies</option>
+                  <option value="Games">Games</option>
+                  <option value="Tech">Tech</option>
+                  <option value="Health">Health</option>
+               </select>
+               <input type="text" id="keywords" class="text" placeholder="Add keywords (separated by comma)" oninput="validateValue(this.id)">
+               <textarea id="intro" class="textarea" placeholder="Intro (1 paragraph only)" cols="44" rows="8" oninput="checkParagraph(this.value, this.id)"></textarea>
+               <div style="display: flex; justify-content: right; width:600px; margin-top: 0.5em; margin-bottom: 0.5em;">
+                  <h5 id="lblintro" style="color: lightgray; font-weight: 500;">0 paragraph</h5>
+               </div>
+            </div>
+            <div id="divConclusion" class="divChild" style="text-align: center;">
+               <h2 class= "divChildHeader">Conclusion</h2>
+               <textarea id="conclusion" class="textarea" placeholder="Conclusion (1 paragraph only)" cols="44" rows="8" oninput="checkParagraph(this.value, this.id)"></textarea>
+               <div style="display: flex; justify-content: right; width:600px; margin-top: 0.5em; margin-bottom: 0.5em;">
+                  <h5 id="lblconclusion" style="color: lightgray; font-weight: 500;">0 paragraph</h5>
+               </div>
+               <input type="url" id="plagiarism" class="text" placeholder="Plagiarism Checker link" oninput="validateValue(this.id)">
+            </div>
+         </div>
+         <div id="toolBar">
+            <div id="plus" class="btnTool" title="Add new entry" onclick="addEntry()">
+               <h1>&#43;</h1>
+            </div>
+            <div id="minus" class="btnTool" title="Remove last entry" onclick="removeEntry()">
+               <h1>&#8722;</h1>
+            </div>
+            <div id="submit" class="btnTool" title="Submit (min. 3 lists)" onclick="submitContent()">
+               <h1>&#9993;</h1>
+            </div>
+         </div>
+         <div id="logoutBar">
+            <div id="logout" class="btnTool" title="Logout" onclick="logout()"><i class="fa fa-sign-out" style="font-size:32px;color:salmon; margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;"></i></div>
+         </div>
+      </div>
+      <script type="text/javascript" src="https://backend.figureddit.com/js-8dz45xilp/tool.js"></script>
+   </body>
 </html>

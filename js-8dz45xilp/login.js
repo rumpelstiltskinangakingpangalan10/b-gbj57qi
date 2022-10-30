@@ -44,8 +44,8 @@ function login() {
                             p.value = "";
                             u.placeholder = "u: x";
                             p.placeholder = "p: x";
-                            u.style.border = "1px solid red";
-                            p.style.border = "1px solid red";
+                            u.style.border = "1px solid tomato";
+                            p.style.border = "1px solid tomato";
                         }
                     }
 
@@ -54,8 +54,8 @@ function login() {
                         p.value = "";
                         u.placeholder = "u: x";
                         p.placeholder = "p: x";
-                        u.style.border = "1px solid red";
-                        p.style.border = "1px solid red";
+                        u.style.border = "1px solid tomato";
+                        p.style.border = "1px solid tomato";
                     }
                 }              
 
