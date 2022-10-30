@@ -38,7 +38,7 @@ function login() {
                             sessionStorage.setItem("authName", prevID[1]);
                             sessionStorage.setItem("author", prevID[4]);
                             sessionStorage.setItem("authProfile", prevID[0]);
-                            window.location.href = "backend.figureddit.com/auth/uq8Z4xtyz2-3sd2j238ds-z38sh9y12hs8"
+                            window.location.href = "https://backend.figureddit.com/auth/uq8Z4xtyz2-3sd2j238ds-z38sh9y12hs8";
                         }
                         
                         else{
