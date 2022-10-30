@@ -136,6 +136,15 @@ a:hover {
     border: 1px solid #474747;
 }
 
+.divCheckPos {
+	margin-top: auto; 
+	margin-bottom: auto; 
+	margin-left: auto; 
+	margin-right: auto; 
+	width: auto; 
+	height: auto;
+}
+
 .divCheck h4 {
     width: auto;
     height: 40px;
@@ -739,7 +748,7 @@ function switchPreview() {
 			`<!--AFFILIATE LINK-->
 			<a class="three" href="${itemLink}"><div class="affiliateBox">
 				<div class="divCheck">
-					<div style="margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto; width: auto; height: auto;"><h4>${remark.toUpperCase().replace(" ", "\n")}</h4></div>
+					<div class="divCheckPos"><h4>${remark.toUpperCase().replace(" ", "\n")}</h4></div>
 				</div>
 				<div class="divRating">
 					<h1>Get ${entryTitle}</h1>
