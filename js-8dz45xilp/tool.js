@@ -513,7 +513,7 @@ function addEntry() {
 
 
 var append, keywords, entryHeader, entryRemarks, today, date, category, mainTitle, intro, conclusion, header,
-part1, end, lastPart, plagiarism, previewed;
+part1, end, lastPart, plagiarism, previewed, imgCover;
 
 function switchPreview() {
 
@@ -742,7 +742,6 @@ function switchPreview() {
 	for(var i=1; i <= e; i++) {
 
 		var imgLink = document.getElementById("imgLink" + i).value;
-		var imgCover = null;
 		var entryTitle = document.getElementById("entryTitle" + i).value;
 		var itemLink = document.getElementById("itemLink" + i).value;
 		var remark = document.getElementById("remark" + i).value;
