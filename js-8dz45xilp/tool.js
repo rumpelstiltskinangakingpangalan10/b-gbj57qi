@@ -1,1 +1,984 @@
-var _0x4e1c5b=_0x51da;(function(_0x43892f,_0x4d3e9b){var _0x448075=_0x51da,_0x283ca8=_0x43892f();while(!![]){try{var _0x5eca04=-parseInt(_0x448075(0x185))/0x1*(-parseInt(_0x448075(0x187))/0x2)+parseInt(_0x448075(0x19c))/0x3*(-parseInt(_0x448075(0x1b2))/0x4)+-parseInt(_0x448075(0x17f))/0x5+parseInt(_0x448075(0x1be))/0x6*(-parseInt(_0x448075(0x1bd))/0x7)+-parseInt(_0x448075(0x15a))/0x8+parseInt(_0x448075(0x193))/0x9*(parseInt(_0x448075(0x1a9))/0xa)+parseInt(_0x448075(0x1bf))/0xb*(parseInt(_0x448075(0x1b5))/0xc);if(_0x5eca04===_0x4d3e9b)break;else _0x283ca8['push'](_0x283ca8['shift']());}catch(_0x3c749c){_0x283ca8['push'](_0x283ca8['shift']());}}}(_0x4721,0x9da72));var intStyle=_0x4e1c5b(0x182),author=sessionStorage['getItem']('author'),authProfile=sessionStorage[_0x4e1c5b(0x14f)]('authProfile'),authName=sessionStorage[_0x4e1c5b(0x14f)]('authName'),authLink=_0x4e1c5b(0x171)+authName;window['history'][_0x4e1c5b(0x1af)](_0x4e1c5b(0x1c2),_0x4e1c5b(0x170),authLink);function checkEntry(){var _0x1ff9c1=_0x4e1c5b,_0x306ebc=document[_0x1ff9c1(0x155)]('preview'),_0x37c6e2=_0x306ebc[_0x1ff9c1(0x175)][_0x1ff9c1(0x16d)];_0x37c6e2>0x2?document[_0x1ff9c1(0x155)](_0x1ff9c1(0x190))['firstElementChild']['style']['color']=_0x1ff9c1(0x189):document[_0x1ff9c1(0x155)]('minus')['firstElementChild']['style'][_0x1ff9c1(0x19b)]=_0x1ff9c1(0x1cb);}checkEntry();function checkParagraph(_0x193c00,_0x1bd926){var _0x1a87d7=_0x4e1c5b,_0x18fec7=_0x193c00[_0x1a87d7(0x153)](/\n/g);if(_0x18fec7[_0x1a87d7(0x16d)]>0x1&&_0x193c00!='')document[_0x1a87d7(0x155)](_0x1bd926)['style'][_0x1a87d7(0x1c9)]=_0x1a87d7(0x15e),document[_0x1a87d7(0x155)](_0x1a87d7(0x18e)+_0x1bd926)[_0x1a87d7(0x174)]=_0x1a87d7(0x1a4),document[_0x1a87d7(0x155)](_0x1a87d7(0x18e)+_0x1bd926)[_0x1a87d7(0x199)][_0x1a87d7(0x19b)]='salmon';else{if(_0x18fec7['length']==0x1&&_0x193c00!='')document[_0x1a87d7(0x155)](_0x1bd926)[_0x1a87d7(0x199)][_0x1a87d7(0x1c9)]=_0x1a87d7(0x16a),document['getElementById'](_0x1a87d7(0x18e)+_0x1bd926)[_0x1a87d7(0x174)]='&#10004;\x20Good',document[_0x1a87d7(0x155)](_0x1a87d7(0x18e)+_0x1bd926)[_0x1a87d7(0x199)][_0x1a87d7(0x19b)]=_0x1a87d7(0x1a0);else(_0x18fec7[_0x1a87d7(0x16d)]==0x0||_0x193c00=='')&&(document[_0x1a87d7(0x155)](_0x1a87d7(0x18e)+_0x1bd926)[_0x1a87d7(0x174)]=_0x1a87d7(0x1b8),document[_0x1a87d7(0x155)](_0x1bd926)['style'][_0x1a87d7(0x1c9)]=_0x1a87d7(0x15e));}}function checkDetails(_0x272c62,_0x149a81){var _0x539b8d=_0x4e1c5b,_0x38ac05=_0x272c62[_0x539b8d(0x153)]('\x0a\x0a');if(_0x38ac05[_0x539b8d(0x16d)]>0x0&&_0x272c62!='')document[_0x539b8d(0x155)](_0x539b8d(0x18e)+_0x149a81)[_0x539b8d(0x174)]=_0x38ac05[_0x539b8d(0x16d)]+_0x539b8d(0x192),document[_0x539b8d(0x155)](_0x539b8d(0x18e)+_0x149a81)[_0x539b8d(0x199)][_0x539b8d(0x19b)]=_0x539b8d(0x1a0),document['getElementById'](_0x149a81)[_0x539b8d(0x199)][_0x539b8d(0x1c9)]=_0x539b8d(0x16a);else(_0x38ac05[_0x539b8d(0x16d)]==0x0||_0x272c62=='')&&(document[_0x539b8d(0x155)](_0x539b8d(0x18e)+_0x149a81)[_0x539b8d(0x174)]=_0x539b8d(0x19e),document[_0x539b8d(0x155)](_0x539b8d(0x18e)+_0x149a81)[_0x539b8d(0x199)]['color']='lightgray',document['getElementById'](_0x149a81)['style'][_0x539b8d(0x1c9)]=_0x539b8d(0x15e));}function removeEntry(){var _0x1347bb=_0x4e1c5b,_0x3e72db=document[_0x1347bb(0x155)]('preview'),_0xce15cc=_0x3e72db[_0x1347bb(0x175)]['length'];_0xce15cc>0x2&&(document[_0x1347bb(0x155)](_0x1347bb(0x150)+e)[_0x1347bb(0x1a6)](),e-=0x1,checkEntry(),document[_0x1347bb(0x155)](_0x1347bb(0x150)+e)!=null&&document['getElementById'](_0x1347bb(0x150)+e)['scrollIntoView']());}var boolPreview=![],boolSubmit=![];function checkChildren(){var _0x37624f=_0x4e1c5b,_0x1d0199=document[_0x37624f(0x155)](_0x37624f(0x15c)),_0x1722c8=_0x1d0199[_0x37624f(0x175)][_0x37624f(0x16d)];return _0x1722c8<0x5?(boolPreview=![],boolSubmit=![],document['getElementById'](_0x37624f(0x184))[_0x37624f(0x166)][_0x37624f(0x199)]['color']=_0x37624f(0x1cb)):(boolPreview=!![],boolSubmit=!![],document[_0x37624f(0x155)](_0x37624f(0x184))['firstElementChild'][_0x37624f(0x199)][_0x37624f(0x19b)]=_0x37624f(0x189)),(boolPreview,boolSubmit);}checkChildren();function _0x4721(){var _0x448d38=['</a></h1><br>\x0a\x09\x09\x09<!--[EDIT]SUPPORTING\x20DETAILS-->\x0a\x09\x09\x09','insertAdjacentHTML','selCategory','</h4></div>\x0a\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09<div\x20class=\x22divRating\x22>\x0a\x09\x09\x09\x09\x09<h1>','value','firstElementChild','\x22\x20/>\x0a\x09\x09\x09\x09<meta\x20property=\x22og:image:width\x22\x20content=\x22760\x22\x20/>\x0a\x09\x09\x09\x09<meta\x20property=\x22og:image:height\x22\x20content=\x22428\x22\x20/>\x0a\x09\x09\x09\x09<meta\x20property=\x22twitter:card\x22\x20content=\x22summary\x22\x20/>\x0a\x09\x09\x09\x09<meta\x20name=\x22twitter:title\x22\x20content=\x22','.\x20<a\x20class=\x22two\x22\x20href=\x22','\x22\x20class=\x22textarea\x22\x20placeholder=\x22Contents\x22\x20cols=\x2244\x22\x20rows=\x228\x22\x20oninput=\x22checkDetails(this.value,\x20this.id)\x22></textarea>\x0a\x09\x09\x09<div\x20style=\x22display:\x20flex;\x20justify-content:\x20right;\x20width:600px;\x20margin-top:\x200.5em;\x20margin-bottom:\x200.5em;\x22><h5\x20id=\x22lbldetails','1px\x20solid\x20lightgrey','Edit','<form\x20id=\x22contactform\x22\x20style=\x22display:\x20none;\x22action=\x22https://formsubmit.io/send/6015127b-0795-4aea-bd23-92b2fe3ce1ad\x22\x20method=\x22POST\x22>\x0a\x09\x09\x09\x09\x09\x09\x09\x09\x09<input\x20name=\x22name\x22\x20type=\x22text\x22\x20id=\x22frmName\x22>\x0a\x09\x09\x09\x09\x09\x09\x09\x09\x09<input\x20name=\x22email\x22\x20type=\x22email\x22\x20id=\x22frmEmail\x22>\x0a\x09\x09\x09\x09\x09\x09\x09\x09\x09<textarea\x20name=\x22comment\x22\x20id=\x22frmComment\x22\x20rows=\x223\x22></textarea>\x0a\x09\x09\x09\x09\x09\x09\x09\x09\x09<input\x20name=\x22_formsubmit_id\x22\x20type=\x22text\x22\x20style=\x22display:none\x22>\x0a\x09\x09\x09\x09\x09\x09\x09\x09\x09<input\x20value=\x22Submit\x22\x20type=\x22submit\x22\x20id=\x22frmSubmit\x22>\x0a\x09\x09\x09\x09\x09\x09\x09\x09</form>','length','getDate','</a></h6>\x0a\x09\x09\x09\x09\x09\x09<h6\x20id=\x22publishDate\x22>PUBLISHED\x20TODAY</h6>\x0a\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09\x09\x0a\x09\x09\x09\x09\x09<!--\x20Go\x20to\x20www.addthis.com/dashboard\x20to\x20customize\x20your\x20tools\x20-->\x0a\x09\x09\x09\x09\x09<div\x20class=\x22addthis_inline_share_toolbox\x22></div>\x0a\x0a\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09<br><br>\x0a\x09\x09\x09\x09<!---------------------[EDIT]ENTRY\x20ARTICLE------------------------>\x0a\x09\x09\x09\x0a\x09\x09\x09','title','https://backend.figureddit.com/auth/','_____Code:\x20','author','innerHTML','children','replace','frmSubmit','\x22\x20alt=\x22','\x22\x20/>\x0a\x09\x09\x09\x09<meta\x20property=\x22og:type\x22\x20content=\x22article\x22\x20/>\x0a\x09\x09\x09\x09<meta\x20property=\x22article:publisher\x22\x20content=\x22https://figureddit.com\x22\x20/>\x0a\x09\x09\x09\x09<meta\x20property=\x22article:section\x22\x20content=\x22tips\x20and\x20reviews\x22\x20/>\x0a\x09\x09\x09\x09<meta\x20property=\x22article:tag\x22\x20content=\x22tips\x20and\x20reviews\x22\x20/>\x0a\x09\x09\x09\x09<meta\x20property=\x22og:image\x22\x20content=\x22','\x22\x20class=\x22divChild\x22>\x0a\x09\x09\x09<h2\x20class=\x20\x22divChildHeader\x22>','\x0a\x09\x09\x09<!--SHOW\x20IMAGE\x20(DON\x27T\x20FORGET\x20ALT+TEXT)-->\x0a\x09\x09\x09<img\x20class=\x22showImage\x22\x20src=\x22','Please\x20add\x20at\x20least\x203\x20listings\x20before\x20preview','white','\x22\x20style=\x22color:\x20lightgray;\x20font-weight:\x20500;\x22>0\x20paragraph</h5></div>\x0a\x09\x09\x09<div\x20style=\x22display:flex;\x20justify-content:\x20center;\x22>\x0a\x09\x09\x09<input\x20type=\x22text\x22\x20id=\x22remark','5273705QckwVq','getMonth','backgroundColor','\x0a\x0aa:link\x20{\x0a\x09color:\x20#878787;\x0a\x09text-decoration:\x20none;\x0a}\x0a\x0aa:visited\x20{\x0a\x09color:\x20#878787;\x0a\x09text-decoration:\x20none;\x0a}\x0a\x0aa:hover\x20{\x0a\x09color:\x20white;\x0a\x09text-decoration:\x20none;\x0a}\x0a\x0a.two:link\x20{\x0a\x09color:#474747;\x0a\x09text-decoration:underline;\x0a}\x0a\x0a.two:visited\x20{\x0a\x09color:#474747;\x0a\x09text-decoration:\x20none;\x0a}\x0a\x0a.two:hover\x20{\x0a\x09color:#575757;\x0a\x09text-decoration:\x20underline;\x0a}\x0a\x0a.three:link\x20{\x0a\x09color:#474747;\x0a\x09text-decoration:\x20none;\x0a}\x0a\x0a.three:visited\x20{\x0a\x09color:#575757;\x0a\x09text-decoration:\x20none;\x0a}\x0a\x0a.three:hover\x20{\x0a\x09color:#575757;\x0a}\x0a\x0a#contents\x20{\x0a\x20\x20\x20\x20display:\x20block;\x0a\x09margin-top:\x202em;\x0a\x09margin-bottom:\x201em;\x0a\x09margin-left:\x20auto;\x0a\x09margin-right:\x20auto;\x0a\x09min-height:\x20300px;\x0a\x09min-height:\x20auto;\x0a\x09max-width:\x20760px;\x0a\x09min-width:\x20120px;\x0a\x09padding-left:\x202em;\x0a\x09padding-right:\x202em;\x0a}\x0a\x0a#articleTitle\x20{\x0a\x20\x20\x20\x20font-size:\x2044px;\x0a\x20\x20\x20\x20color:\x20#474747;\x0a\x20\x20\x20\x20text-align:\x20left;\x0a}\x0a\x0a.paragraphs\x20{\x0a\x20\x20\x20\x20font-size:\x2016px;\x0a\x20\x20\x20\x20font-weight:\x20500;\x0a\x20\x20\x20\x20color:\x20#474747;\x0a\x20\x20\x20\x20letter-spacing:\x20.2px;\x0a\x20\x20\x20\x20line-height:\x202em;\x20\x20\x20\x0a\x20\x20\x20\x20text-align:\x20justify;\x0a}\x0a\x0a#underTitle\x20{\x0a\x20\x20\x20\x20height:\x2040px;\x0a\x20\x20\x20\x20width:\x20auto;\x0a\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20flex-wrap:\x20wrap;\x0a\x20\x20\x20\x20justify-content:space-between;\x0a}\x0a\x0a#dateAuthor\x20{\x0a\x20\x20\x20\x20margin-top:\x2010px;\x0a\x20\x20\x20\x20font-size:\x2014px;\x0a\x20\x20\x20\x20display:\x20block;\x0a\x20\x20\x20\x20color:\x20#474747;\x0a\x20\x20\x20\x20letter-spacing:\x200.2px;\x0a\x20\x20\x20\x20margin-bottom:\x202em;\x0a}\x0a\x0a#dateAuthor\x20h6\x20{\x0a\x20\x20\x20\x20padding-bottom:\x202px;\x0a}\x0a\x0a.showImage\x20{\x0a\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20height:\x20428px;\x20\x0a\x20\x20\x20\x20min-width:\x20auto;\x0a\x20\x20\x20\x20min-height:\x20auto;\x0a\x20\x20\x20\x20object-fit:\x20contain;\x0a\x20\x20\x20\x20cursor:\x20default;\x0a\x20\x20\x20\x20margin-top:\x200.5%;\x0a\x20\x20\x20\x20margin-bottom:\x200.5%;\x0a}\x0a\x0a.itemTitle\x20{\x0a\x20\x20\x20\x20color:\x20#474747;\x0a}\x0a\x0a.affiliateBox\x20{\x0a\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20margin-top:\x202em;\x0a\x20\x20\x20\x20cursor:\x20default;\x0a\x20\x20\x20\x20display:\x20block;\x0a\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20min-height:\x2060px;\x0a\x20\x20\x20\x20transition:\x200.2s;\x0a\x20\x20\x20\x20border:\x202px\x20solid\x20#474747\x0a}\x0a\x0a.affiliateBox\x20h4\x20{\x0a\x20\x20\x20\x20color:\x20white;\x0a}\x0a\x0a.divCheck\x20{\x0a\x20\x20\x20\x20width:\x20140px;\x0a\x20\x20\x20\x20height:\x20auto;\x0a\x20\x20\x20\x20display:\x20flex;\x0a\x09padding:10px;\x0a\x20\x20\x20\x20background-color:\x20#474747;\x0a\x20\x20\x20\x20border:\x201px\x20solid\x20#474747;\x0a}\x0a\x0a.divCheckPos\x20{\x0a\x09margin-top:\x20auto;\x20\x0a\x09margin-bottom:\x20auto;\x20\x0a\x09margin-left:\x20auto;\x20\x0a\x09margin-right:\x20auto;\x20\x0a\x09width:\x20auto;\x20\x0a\x09height:\x20auto;\x0a}\x0a\x0a.divCheck\x20h4\x20{\x0a\x20\x20\x20\x20width:\x20auto;\x0a\x20\x20\x20\x20height:\x2040px;\x0a\x20\x20\x20\x20margin-top:\x20auto;\x0a\x20\x20\x20\x20margin-bottom:\x20auto;\x0a\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20color:\x20white;\x0a}\x0a\x0a.divRating\x20{\x0a\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20height:\x20100%;\x0a\x20\x20\x20\x20display:\x20block;\x0a\x20\x20\x20\x20cursor:\x20default;\x0a\x20\x20\x20\x20margin-top:\x201em;\x0a\x20\x20\x20\x20margin-bottom:\x201em;\x0a}\x0a\x0a.divRating\x20h1\x20{\x0a\x20\x20\x20\x20color:\x20#474747;\x0a\x20\x20\x20\x20text-align:\x20center;\x0a}\x0a\x0a.divRating:hover\x20h1\x20{\x0a\x20\x20\x20\x20color:\x20#474747;\x0a\x20\x20\x20\x20text-decoration:\x20underline;\x0a}\x0a\x0a#divShare\x20{\x0a\x20\x20\x20\x20max-width:\x20760px;\x0a\x20\x20\x20\x20margin-left:\x20auto;\x0a\x20\x20\x20\x20margin-right:\x20auto;\x0a\x20\x20\x20\x20background-color:\x20pink;\x0a}\x0a\x0a#shareButtons\x20{\x0a\x20\x20\x20\x20margin-top:\x20auto;\x0a\x20\x20\x20\x20margin-bottom:\x20auto;\x0a}\x0a\x0a#aboutAuthor\x20{\x0a\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20flex-direction:\x20column;\x0a\x09margin-left:\x20auto;\x0a\x09margin-right:\x20auto;\x0a\x09min-height:\x20auto;\x0a\x09max-width:\x20760px;\x0a\x20\x20\x20\x20width:\x20auto;\x0a\x09min-width:\x20120px;\x0a\x20\x20\x20\x20padding-left:\x201em;\x0a\x20\x20\x20\x20padding-right:\x201em;\x0a\x20\x20\x20\x0a}\x0a\x0a#divAuthor\x20{\x0a\x20\x20\x20\x20width:\x20auto;\x0a\x20\x20\x20\x20row-gap:\x201em;\x0a\x20\x20\x20\x20column-gap:\x201em;\x0a\x20\x20\x20\x20flex-wrap:\x20wrap;\x0a\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20max-width:\x20100%;\x0a\x20\x20\x20\x20min-width:\x20300px;\x0a\x20\x20\x20\x20display:\x20inline-flex;\x0a\x20\x20\x20\x20border-radius:\x208px;\x0a\x20\x20\x20\x20padding-left:\x200.5em;\x0a\x20\x20\x20\x20padding-right:\x200.5em;\x0a\x20\x20\x20\x20padding-top:\x201em;\x0a\x20\x20\x20\x20padding-bottom:\x201em;\x0a\x20\x20\x20\x20justify-content:\x20space-between;\x0a\x20\x20\x20\x20border:\x201px\x20solid\x20rgba(0,\x200,\x200,\x200.05);\x20\x0a\x20\x20\x20\x20box-shadow:\x200px\x202px\x204px\x20rgba(0,\x200,\x200,\x200.05);\x0a}\x0a\x0a\x0a#divProfile\x20{\x0a\x20\x20\x20\x20flex-grow:\x201;\x0a\x20\x20\x20\x20height:\x20auto;\x0a\x20\x20\x20\x20width:\x20100px;\x0a\x20\x20\x20\x20flex-basis:\x20100px;\x0a\x20\x20\x20\x20justify-content:\x20center;\x0a}\x0a\x0a#divProfile\x20img\x20{\x0a\x20\x20\x20\x20border-radius:\x2099px;\x0a}\x0a\x0a#descHeader\x20{\x0a\x20\x20\x20\x20height:\x20auto;\x0a\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20color:\x20#474747;\x0a}\x0a\x0a#descHeader\x20h5\x20{\x0a\x20\x20\x20\x20margin-top:\x20auto;\x0a\x20\x20\x20\x20margin-bottom:\x20auto;\x0a\x20\x20\x20\x20font-weight:\x20500;\x0a}\x0a\x0a#descAbout\x20{\x0a\x20\x20\x20\x20font-weight:\x20500;\x0a}\x0a\x0a#descAbout\x20h4\x20{\x0a\x20\x20\x20\x20font-size:\x2014px;\x0a\x20\x20\x20\x20font-weight:\x20500;\x0a\x20\x20\x20\x20color:\x20#575757;\x0a\x20\x20\x20\x20letter-spacing:\x20.2px;\x0a\x20\x20\x20\x20line-height:\x201.3em;\x20\x20\x20\x0a\x20\x20\x20\x20text-align:\x20justify;\x0a}\x0a\x0a#descAbout\x20h5\x20{\x0a\x20\x20\x20\x20color:\x20#474747;\x0a\x20\x20\x20\x20font-weight:\x20900;\x0a\x20\x20\x20\x20text-decoration:\x20underline;\x0a}\x0a\x0a#readMore\x20{\x0a\x20\x20\x20\x20display:\x20block;\x0a\x09margin-left:\x20auto;\x0a\x09margin-right:\x20auto;\x0a\x09min-height:\x20300px;\x0a\x09min-height:\x20auto;\x0a\x09max-width:\x20760px;\x0a\x09min-width:\x20120px;\x0a\x09padding-left:\x202em;\x0a\x09padding-right:\x202em;\x0a\x20\x20\x20\x20margin-bottom:\x206em;\x0a}\x0a\x0a#readNext\x20{\x0a\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20margin-top:\x201em;\x0a\x20\x20\x20\x20flex-grow:\x201;\x0a\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20flex-wrap:\x20wrap;\x0a\x20\x20\x20\x20padding-top:\x201em;\x0a\x20\x20\x20\x20flex-direction:\x20row;\x0a\x20\x20\x20\x20justify-content:\x20space-around;\x0a}\x0a\x0a.nextArticle\x20{\x0a\x20\x20\x20\x20height:\x20auto;\x0a\x20\x20\x20\x20padding:\x204px;\x0a\x20\x20\x20\x20flex-grow:\x201;\x0a\x20\x20\x20\x20flex-wrap:\x20wrap;\x0a\x20\x20\x20\x20flex-basis:\x20160px;\x0a\x20\x20\x20\x20border-radius:\x204px;\x0a\x20\x20\x20\x20margin-bottom:\x201em;\x0a\x20\x20\x20\x20cursor:\x20pointer;\x0a}\x0a\x0a.nextArticle:hover\x20h3\x20{\x0a\x20\x20\x20\x20text-decoration:\x20underline;\x0a}\x0a\x0a.nextThumbnail\x20{\x0a\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20flex-grow:\x201;\x0a\x20\x20\x20\x20height:\x20auto;\x0a\x20\x20\x20\x20flex-basis:\x20128px;\x0a\x20\x20\x20\x20flex-direction:\x20row;\x0a}\x0a\x0a.nextThumbnail\x20img\x20{\x0a\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20height:\x20auto;\x0a\x20\x20\x20\x20min-width:\x20128px;\x0a\x20\x20\x20\x20min-height:\x2096px;\x0a\x20\x20\x20\x20object-fit:\x20contain;\x0a}\x0a\x0a.nextArticle\x20h3\x20{\x0a\x20\x20\x20\x20color:\x20#474747;\x0a\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20cursor:\x20default;\x0a\x20\x20\x20\x20word-wrap:\x20break-word;\x0a}\x0a','remark','submit','585355iPTLJo','forms','2IvLEDC','\x20-\x20Figureddit\x22>\x0a\x09\x09\x09\x09<meta\x20name\x20=\x20\x22description\x22\x20content\x20=\x20\x22','#474747','\x22\x20id=\x22authorName\x22>','Please\x20complete\x20all\x20required\x20fields','papa\x20dc','conclusion','lbl','figureddit@gmail.com','minus','entryTitle','\x20paragraph(s)\x20detected','558OVbDUL','setAttribute','1px\x20solid\x20white','intStyle','itemLink','</h1>\x0a\x09\x09\x09\x09</div>\x0a\x09\x09\x09</div></a><br><br><br>\x0a\x09\x09\x09','style','\x20-\x20Figureddit</title>\x0a\x09\x09\x09\x09<meta\x20charset=\x22UTF-8\x22>\x0a\x09\x09\x09\x09<meta\x20name\x20=\x20\x22viewport\x22\x20content=\x22width=device-width\x20,\x20initial-scale=1.0\x22>\x0a\x09\x09\x09\x09<meta\x20name\x20=\x20\x22keywords\x22\x20content=\x22figureddit,\x20','color','393ZpDlLL','\x22\x20class=\x22text\x22\x20placeholder=\x22Image\x20link\x22\x20oninput=\x22validateValue(this.id)\x22>\x0a\x09\x09\x09<input\x20type=\x22text\x22\x20id=\x22entryTitle','0\x20paragraph','frmEmail','mediumseagreen','</h1></center><br><br>\x0a\x09\x09\x09\x09<!--INTRO-->\x0a\x09\x09\x09\x09<p\x20class=\x22paragraphs\x22>','details','textarea','Only\x201\x20paragraph\x20is\x20allowed.\x20Please\x20check\x20line\x20spacing.','Please\x20preview\x20your\x20work\x20before\x20submitting','remove','keywords','select','13810edLEDg','getElementsByTagName','getFullYear','setItem','none','toolBar','replaceState','\x22\x20/>\x0a\x09\x09\x09\x09<meta\x20property=\x22twitter:site\x22\x20content=\x22@figureddit\x22\x20/>\x0a\x0a\x09\x09\x09\x09<link\x20rel=\x22canonical\x22\x20href=\x22https://figureddit.com\x22>\x0a\x09\x09\x09\x09<link\x20rel=\x22canonical\x22\x20href=\x22http://figureddit.com\x22>\x0a\x09\x09\x09\x09<link\x20rel=\x22canonical\x22\x20href=\x22https://www.figureddit.com\x22>\x0a\x09\x09\x09\x09<link\x20rel=\x22canonical\x22\x20href=\x22http://www.figureddit.com\x22>\x0a\x09\x09\x09\x09<link\x20rel=\x22canonical\x22\x20href=\x22https://figuredit.com\x22>\x0a\x09\x09\x09\x09<link\x20rel=\x22canonical\x22\x20href=\x22http://figuredit.com\x22>\x0a\x09\x09\x09\x09<link\x20rel=\x22canonical\x22\x20href=\x22https://www.figuredit.com\x22>\x0a\x09\x09\x09\x09<link\x20rel=\x22canonical\x22\x20href=\x22http://www.figuredit.com\x22>\x0a\x09\x09\x09\x09\x0a\x09\x09\x09\x09<link\x20rel=\x22preload\x22\x20href=\x22https://figureddit.com/css-c9t67il/style.css\x22\x20as=\x22style\x22>\x0a\x09\x09\x09\x09<link\x20rel=\x22preload\x22\x20href=\x22https://figureddit.com/css-c9t67il/articles.css\x22\x20as=\x22style\x22>\x0a\x09\x09\x09\x09<link\x20rel=\x22stylesheet\x22,\x20href=\x22https://figureddit.com/css-c9t67il/articles.css\x22>\x20\x0a\x09\x09\x09\x09<link\x20rel=\x22stylesheet\x22,\x20href=\x22https://figureddit.com/css-c9t67il/style.css\x22>\x20\x0a\x09\x09\x09\x09<link\x20rel=\x22icon\x22\x20type=\x22image/x-icon\x22\x20href=\x22https://figureddit.com/icons-k7hs75z/favicon.svg\x22>\x0a\x09\x09\x09\x09<link\x20href=\x22https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap\x22\x20rel=\x22stylesheet\x22>\x0a\x0a\x09\x09\x09\x09<link\x20rel=\x22preload\x22\x20href=\x22https://figureddit.com/js-nqadc8p/articles.js\x22\x20as=\x22script\x22>\x0a\x09\x09\x09\x09<link\x20rel=\x22preload\x22\x20href=\x22https://figureddit.com/js-nqadc8p/functions.js\x22\x20as=\x22script\x22>\x0a\x0a\x09\x09\x09</head>\x20\x0a\x0a\x09\x09\x09<body\x20style=\x22min-width:\x20360px;\x22>\x0a\x09\x09\x09\x09<div\x20id=\x22menu\x22>\x0a\x09\x09\x09\x09\x0a\x09\x09\x09\x09\x09<button\x20type=\x22button\x22\x20id=\x22Shows\x22\x20class=\x22btnMenu\x22\x20onmouseover=\x22hoverCategory(this.id);\x22\x20onmouseout=\x22outCategory(this.id);\x22\x20onclick=\x22filterCategory(this.id);\x22>\x0a\x09\x09\x09\x09\x09\x09<h6>SHOWS</h6>\x0a\x09\x09\x09\x09\x09</button>\x0a\x09\x09\x09\x09\x09<div\x20class=\x22divider\x22></div>\x0a\x09\x09\x09\x09\x09<button\x20type=\x22button\x22\x20id=\x22Movies\x22\x20class=\x22btnMenu\x22\x20onmouseover=\x22hoverCategory(this.id);\x22\x20onmouseout=\x22outCategory(this.id);\x22\x20onclick=\x22filterCategory(this.id);\x22>\x0a\x09\x09\x09\x09\x09\x09<h6>MOVIES</h6>\x0a\x09\x09\x09\x09\x09</button>\x0a\x09\x09\x09\x09\x09<div\x20class=\x22divider\x22></div>\x0a\x09\x09\x09\x09\x09<button\x20type=\x22button\x22\x20id=\x22Games\x22\x20class=\x22btnMenu\x22\x20onmouseover=\x22hoverCategory(this.id);\x22\x20onmouseout=\x22outCategory(this.id);\x22\x20onclick=\x22filterCategory(this.id);\x22>\x0a\x09\x09\x09\x09\x09\x09<h6>GAMES</h6>\x0a\x09\x09\x09\x09\x09</button>\x0a\x09\x09\x09\x09\x09<div\x20class=\x22divider\x22></div>\x0a\x09\x09\x09\x09\x09<button\x20type=\x22button\x22\x20id=\x22Tech\x22\x20class=\x22btnMenu\x22\x20onmouseover=\x22hoverCategory(this.id);\x22\x20onmouseout=\x22outCategory(this.id);\x22\x20onclick=\x22filterCategory(this.id);\x22>\x0a\x09\x09\x09\x09\x09\x09<h6>TECH</h6>\x0a\x09\x09\x09\x09\x09</button>\x0a\x09\x09\x09\x09\x09<div\x20class=\x22divider\x22></div>\x0a\x09\x09\x09\x09\x09<button\x20type=\x22button\x22\x20id=\x22Health\x22\x20class=\x22btnMenu\x22\x20onmouseover=\x22hoverCategory(this.id);\x22\x20onmouseout=\x22outCategory(this.id);\x22\x20onclick=\x22filterCategory(this.id);\x22>\x0a\x09\x09\x09\x09\x09\x09<h6>HEALTH</h6>\x0a\x09\x09\x09\x09\x09</button>\x0a\x09\x09\x09\x09\x09<div\x20class=\x22divider\x22></div>\x0a\x09\x09\x09\x0a\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09<div\x20id=\x22header\x22>\x0a\x09\x09\x09\x09\x09<div\x20id=\x22showMenu\x22\x20onclick=\x22funcMenu();\x22><img\x20src\x20=\x20\x22https://figureddit.com/icons-k7hs75z/menu.svg\x22></div>\x0a\x09\x09\x09\x09\x09<div\x20class=\x22logo\x22\x20id=\x22Home\x22\x20onclick=\x22filterCategory(this.id);\x22>\x0a\x09\x09\x09\x09\x09\x09<img\x20src=\x22https://figureddit.com/icons-k7hs75z/logo.svg\x22>\x0a\x09\x09\x09\x09\x09\x09<h1>figureddit.</h1>\x0a\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09\x09<div\x20id=\x22divSearch\x22>\x0a\x09\x09\x09\x09\x09\x09<div\x20style=\x22height:\x2063px;\x20width:auto;\x22>\x0a\x09\x09\x09\x09\x09\x09<input\x20type=\x22text\x22\x20id=\x22inputSearch\x22\x20placeholder=\x22Search..\x22\x20oninput=\x22useSearch(this.value)\x22\x20onkeypress=\x22enterSearch(event,\x20this.value)\x22\x20onfocus=\x22useSearch(this.value)\x22>\x0a\x09\x09\x09\x09\x09\x09<img\x20src\x20=\x20\x22https://figureddit.com/icons-k7hs75z/search.svg\x22\x20id=\x22btnSearch\x22>\x0a\x09\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09\x09\x09<div\x20id=\x22searchList\x22></div>\x0a\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09<div\x20id=\x22subDiv\x22\x20onclick=\x22bodyFocus()\x22>\x0a\x09\x09\x09\x09\x09<div\x20id=\x22contents\x22>','divConclusion','6860DBhmuB','mainTitle','Are\x20you\x20sure\x20you\x20want\x20to\x20submit\x20the\x20content?','21256332TTfsFa','</p><br><br>\x0a\x09\x09\x09\x09<!---------------[EDIT]UNDER\x20TITLE------------------>\x0a\x09\x09\x09\x09<div\x20id=\x22underTitle\x22>\x0a\x09\x09\x09\x09\x09<div\x20id=\x22dateAuthor\x22>\x0a\x09\x09\x09\x09\x09\x09<h6\x20id=\x22publisher\x22>BY\x20<a\x20class=\x22two\x22\x20href=\x22','block','This\x20field\x20cannot\x20be\x20empty.\x20Please\x20add\x201\x20paragraph.','</p><br><br></div>','location','\x22>\x0a\x09\x09\x09\x09<meta\x20property=\x22twitter:image\x22\x20content=\x22','<div\x20id=\x22entry','140eImQMO','366834hRaNuH','22zEsLaz','\x22\x20class=\x22text\x22\x20placeholder=\x22List\x20Title\x22\x20oninput=\x22validateValue(this.id)\x22>\x0a\x09\x09\x09<textarea\x20id=\x22details','\x22\x20class=\x22shortText\x22\x20placeholder=\x22Remark\x22\x20oninput=\x22validateValue(this.id)\x22>\x0a\x09\x09\x09<input\x20type=\x22url\x22\x20id=\x22itemLink','new','frmName','Category','Preview','Please\x20add\x20at\x20least\x203\x20listings','<!--AFFILIATE\x20LINK-->\x0a\x09\x09\x09<a\x20class=\x22three\x22\x20href=\x22','display','border','scrollIntoView','lightgrey','getItem','entry','\x0a\x09\x09\x09\x09<!-----------------------TITLE--------------------->\x0a\x09\x09\x09\x09<center><h1\x20id=\x22articleTitle\x22>','input','split','contents','getElementById','\x22\x20/>\x0a\x09\x09\x09\x09<meta\x20property=\x22og:description\x22\x20content=\x22','<p\x20class\x20=\x20\x22paragraphs\x22>','plagiarism','contactForm','8526136UDzexX','reload','preview','Submitted\x20successfully','1px\x20solid\x20salmon','\x22\x20/>\x0a\x09\x09\x09\x09<meta\x20property=\x22og:image:secure_url\x22\x20content=\x22','toUpperCase'];_0x4721=function(){return _0x448d38;};return _0x4721();}var e=0x0,entry='';function add(_0xdf156e){var _0x2ce7a3=_0x4e1c5b;return entry=_0x2ce7a3(0x1bc)+_0xdf156e+_0x2ce7a3(0x17a)+_0xdf156e+'.</h2>\x0a\x09\x09\x09<input\x20type=\x22url\x22\x20id=\x22imgLink'+_0xdf156e+_0x2ce7a3(0x19d)+_0xdf156e+_0x2ce7a3(0x1c0)+_0xdf156e+_0x2ce7a3(0x169)+_0xdf156e+_0x2ce7a3(0x17e)+_0xdf156e+_0x2ce7a3(0x1c1)+_0xdf156e+'\x22\x20class=\x22textLink\x22\x20placeholder=\x22CTA\x20link\x22\x20oninput=\x22validateValue(this.id)\x22></div>\x0a\x09\x09\x09</div>',entry;}function addEntry(){var _0x4f2bd9=_0x4e1c5b;e+=0x1,add(e);var _0x40b723=document[_0x4f2bd9(0x155)](_0x4f2bd9(0x1b1));_0x40b723[_0x4f2bd9(0x162)]('beforebegin',entry),document['getElementById'](_0x4f2bd9(0x150)+e)[_0x4f2bd9(0x1ca)](),checkEntry(),checkChildren();}var append,keywords,entryHeader,entryRemarks,today,date,category,mainTitle,intro,conclusion,header,part1,end,lastPart,plagiarism,previewed,imgCover;function switchPreview(){var _0x30f109=_0x4e1c5b;previewed=!![],append='',entryHeader='',entryRemarks='',today=new Date(),date=today[_0x30f109(0x180)]()+0x1+'/'+today[_0x30f109(0x16e)]()+'/'+today[_0x30f109(0x1ab)](),category=document[_0x30f109(0x155)](_0x30f109(0x163))[_0x30f109(0x165)],mainTitle=document[_0x30f109(0x155)](_0x30f109(0x1b3))[_0x30f109(0x165)],intro=document[_0x30f109(0x155)]('intro')[_0x30f109(0x165)],conclusion=document[_0x30f109(0x155)](_0x30f109(0x18d))[_0x30f109(0x165)],keywords=document[_0x30f109(0x155)](_0x30f109(0x1a7))[_0x30f109(0x165)],plagiarism=document[_0x30f109(0x155)](_0x30f109(0x158))[_0x30f109(0x165)],urlTitle=('https://figureddit.com/articles/'+category+'/'+mainTitle[_0x30f109(0x176)](/ /g,'-'))['toLowerCase'](),document[_0x30f109(0x155)](_0x30f109(0x15c))[_0x30f109(0x199)][_0x30f109(0x1c8)]=_0x30f109(0x1ad),document[_0x30f109(0x155)](_0x30f109(0x1ae))[_0x30f109(0x199)][_0x30f109(0x1c8)]=_0x30f109(0x1ad),header='\x0a\x09\x09\x09<!DOCTYPE\x20html>\x0a\x09\x09\x09<html\x20id=\x22mainHTML\x22\x20style=\x22scroll-behavior:\x20smooth;\x22>\x0a\x09\x09\x09<head>\x0a\x09\x09\x09\x09<!-----------------[EDIT]\x20TITLE\x20BASED\x20ON\x20ARTICLE\x20TITLE------------------>\x0a\x09\x09\x09\x09<title>'+mainTitle+_0x30f109(0x19a)+keywords+'\x22>\x0a\x09\x09\x09\x09<meta\x20name\x20=\x20\x22author\x22\x20content\x20=\x20\x22'+author+_0x30f109(0x188)+intro+'\x22>\x0a\x0a\x09\x09\x09\x09<meta\x20property=\x22og:site_name\x22\x20content=\x22Figureddit\x22\x20/>\x0a\x09\x09\x09\x09<meta\x20property=“og:title”\x20content=“'+mainTitle+_0x30f109(0x156)+intro+'\x22\x20/>\x0a\x09\x09\x09\x09<meta\x20property=\x22og:url\x22\x20content=\x22'+urlTitle+_0x30f109(0x179)+_0x5bf34a+_0x30f109(0x15f)+_0x5bf34a+_0x30f109(0x167)+mainTitle+_0x30f109(0x1bb)+_0x5bf34a+_0x30f109(0x1b0),part1=_0x30f109(0x151)+mainTitle+_0x30f109(0x1a1)+intro+_0x30f109(0x1b6)+authProfile+_0x30f109(0x18a)+author[_0x30f109(0x160)]()+_0x30f109(0x16f),end='\x09<p\x20class=\x22paragraphs\x22>'+conclusion+_0x30f109(0x1b9),lastPart='\x0a\x09\x09\x09\x09\x09<!------------------------------ABOUT\x20THE\x20AUTHOR------------------->\x0a\x09\x09\x0a\x09\x09\x09\x09\x09<div\x20id=\x22aboutAuthor\x22\x20onclick=\x22goToAuthor()\x22>\x0a\x09\x09\x09\x09\x09\x09<div\x20id=\x22divAuthor\x22>\x0a\x09\x09\x09\x09\x09\x09<div\x20style=\x22flex-grow:\x201;\x20flex-basis:\x20100px;\x20display:\x20flex;\x20justify-content:\x20center;\x22>\x0a\x09\x09\x09\x09\x09\x09\x09<div\x20id=\x22divProfile\x22></div>\x0a\x09\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09\x09\x09\x0a\x09\x09\x09\x09\x09\x09<div\x20style=\x22display:block;\x20width:\x2084%;\x20margin-left:\x20auto;\x20margin-right:\x20auto;\x22>\x0a\x09\x09\x09\x09\x09\x09\x09<div\x20id=\x22descHeader\x22>\x20</div>\x0a\x09\x09\x09\x09\x09\x09\x09<br>\x20\x0a\x09\x09\x09\x09\x09\x09\x09<div\x20id=\x22descAbout\x22>\x20</div>\x0a\x09\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09\x09<br><br><br>\x0a\x0a\x09\x09\x09\x09\x09<!------------------------------READ\x20MORE------------------------->\x0a\x09\x09\x09\x09\x09<div\x20id=\x22readMore\x22>\x0a\x09\x09\x09\x09\x09\x09<h3\x20style=\x22color:#474747;\x20margin-bottom:\x206px;\x20font-weight:\x20700;\x22>Read\x20Next</h3>\x0a\x09\x09\x09\x09\x09\x09<div\x20style=\x22width:100%;\x20height:\x202px;\x20background-color:\x20#474747;\x20margin-top:\x20auto;\x20margin-bottom:\x20auto;\x22></div>\x0a\x09\x09\x09\x09\x09\x09<div\x20id=\x22readNext\x22>\x0a\x09\x09\x09\x09\x09\x09<!--random\x20suggested\x20article\x20here-->\x0a\x09\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09<!----------------------FOOTER---------------------------------->\x0a\x09\x09\x09\x09<div\x20id=\x22footer\x22>\x0a\x09\x09\x09\x09\x09<div\x20id=\x22upperFooter\x22>\x0a\x09\x09\x09\x09\x09\x09<div\x20class=\x22footerNewsletter\x22>\x0a\x09\x09\x09\x09\x09\x09\x09<form\x20action=\x22https://formsubmit.io/send/6015127b-0795-4aea-bd23-92b2fe3ce1ad\x22\x20method=\x22POST\x22\x20autocomplete=\x22off\x22>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<label\x20for=\x22txtNewsLetter\x22\x20id=\x22lblNewsLetter\x22><h1>Get\x20More\x20Updates\x20<br>\x20From\x20Our\x20Newsletter</h1></label><br>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<input\x20name=\x22name\x22\x20type=\x22text\x22\x20value=\x22Newsletter\x22\x20style=\x22display:\x20none;\x22>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<input\x20name=\x22txtNewsLetter\x22\x20type=\x22email\x22\x20placeholder=\x22Email\x22\x20id=\x22txtNewsLetter\x22\x20size=\x2212\x22\x20required>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<textarea\x20name=\x22comment\x22\x20value=\x22I\x20subscribe\x20to\x20your\x20newsletter.\x22\x20rows=\x2220\x22\x20cols=\x2230\x22\x20style=\x22display:\x20none;\x22></textarea>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<button\x20type=\x22submit\x22\x20id=\x22btnNewsLetter\x22>Subscribe</button>\x0a\x09\x09\x09\x09\x09\x09\x09</form>\x0a\x09\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09\x09\x09<div\x20class=\x22footerBlock\x22>\x0a\x09\x09\x09\x09\x09\x09\x09<ul>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li\x20class=\x22listTitle\x22><h3>Read\x20More</h3></li><br>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li><a\x20class=\x22one\x22\x20name=\x22Shows\x22\x20onclick=\x22filterCategory(this.name)\x22\x20href=\x22#top\x22>Shows</a></li>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li><a\x20class=\x22one\x22\x20name=\x22Movies\x22\x20onclick=\x22filterCategory(this.name)\x22\x20href=\x22#top\x22>Movies</a></li>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li><a\x20class=\x22one\x22\x20name=\x22Games\x22\x20onclick=\x22filterCategory(this.name)\x22\x20href=\x22#top\x22>Games</a></li>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li><a\x20class=\x22one\x22\x20name=\x22Tech\x22\x20onclick=\x22filterCategory(this.name)\x22\x20href=\x22#top\x22>Tech</a></li>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li><a\x20class=\x22one\x22\x20name=\x22Health\x22\x20onclick=\x22filterCategory(this.name)\x22\x20href=\x22#top\x22>Health</a></li>\x0a\x09\x09\x09\x09\x09\x09\x09\x09\x0a\x09\x09\x09\x09\x09\x09\x09</ul>\x0a\x09\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09\x09\x09<div\x20class=\x22footerBlock\x22>\x0a\x09\x09\x09\x09\x09\x09\x09<ul>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li\x20class=\x22listTitle\x22><h3>Support</h3></li><br>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li><a\x20class=\x22one\x22\x20href=\x22https://figureddit.com/privacy-policy\x22>Privacy\x20Policy</a></li>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li><a\x20class=\x22one\x22\x20href=\x22https://figureddit.com/terms-of-use\x22>Terms\x20Of\x20Use</a></li>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li><a\x20class=\x22one\x22\x20href=\x22https://figureddit.com/contact-us\x22>Contact\x20Us</a></li>\x0a\x09\x09\x09\x09\x09\x09\x09</ul>\x0a\x09\x09\x09\x09\x09\x09</div>\x0a\x0a\x09\x09\x09\x09\x09\x09<div\x20class=\x22footerBlock\x22>\x0a\x09\x09\x09\x09\x09\x09\x09<ul>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li\x20class=\x22listTitle\x22><h3>Links</h3></li><br>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li><a\x20class=\x22one\x22\x20href=\x22#\x22>Shopee</a></li>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li><a\x20class=\x22one\x22\x20href=\x22#\x22>Youtube</a></li>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li><a\x20class=\x22one\x22\x20href=\x22#\x22>Facebook</a></li>\x0a\x09\x09\x09\x09\x09\x09\x09\x09<li><a\x20class=\x22one\x22\x20href=\x22#\x22>Portfolio</a></li>\x0a\x09\x09\x09\x09\x09\x09\x09</ul>\x0a\x09\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x09\x09<div\x20class=\x22footerBar\x22><h5>&#169;\x20Figureddit\x202023.\x20All\x20Rights\x20Reserved.</h5></div>\x0a\x09\x09\x09\x09</div>\x0a\x09\x09\x09\x0a\x09\x09\x09\x0a\x09\x09\x09<script\x20type=\x22text/javascript\x22\x20defer\x20src=\x22https://figureddit.com/js-nqadc8p/functions.js\x22></script>\x0a\x09\x09\x09<script\x20type=\x22text/javascript\x22\x20defer\x20src=\x22https://figureddit.com/js-nqadc8p/articles.js\x22></script>\x0a\x0a\x09\x09\x09<!--\x20Go\x20to\x20www.addthis.com/dashboard\x20to\x20customize\x20your\x20tools\x20-->\x0a\x09\x09\x09<script\x20type=\x22text/javascript\x22\x20src=\x22//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-634941e1013d2b83\x22></script>\x0a\x0a\x09\x09</body>\x0a\x09\x09</html>\x0a\x09\x09';for(var _0x2907fc=0x1;_0x2907fc<=e;_0x2907fc++){var _0x5bf34a=document['getElementById']('imgLink'+_0x2907fc)[_0x30f109(0x165)],_0x3ab320=document['getElementById'](_0x30f109(0x191)+_0x2907fc)[_0x30f109(0x165)],_0x1ce9e0=document[_0x30f109(0x155)](_0x30f109(0x197)+_0x2907fc)['value'],_0x4330f7=document[_0x30f109(0x155)](_0x30f109(0x183)+_0x2907fc)['value'],_0x32791f='',_0x1a5a80=document[_0x30f109(0x155)](_0x30f109(0x1a2)+_0x2907fc)[_0x30f109(0x165)],_0x1ae80f=_0x1a5a80['split']('\x0a\x0a');if(_0x2907fc==0x1)return imgCover=document[_0x30f109(0x155)]('imgLink'+_0x2907fc)[_0x30f109(0x165)],imgCover;entryHeader=_0x30f109(0x17b)+_0x5bf34a+_0x30f109(0x178)+_0x3ab320+'-'+mainTitle+'-'+keywords+'-Figureddit\x22>\x0a\x09\x09\x09<br><br><br>\x0a\x09\x09\x09<!--[EDIT]ITEM-->\x0a\x09\x09\x09<h1\x20class=\x22itemTitle\x22>'+_0x2907fc+_0x30f109(0x168)+_0x1ce9e0+'\x22>'+_0x3ab320+_0x30f109(0x161);for(var _0x449e9b=0x0;_0x449e9b<_0x1ae80f[_0x30f109(0x16d)];_0x449e9b++){_0x32791f+=_0x30f109(0x157)+_0x1ae80f[_0x449e9b]+'</p><br>';}entryRemarks=_0x30f109(0x1c7)+_0x1ce9e0+'\x22><div\x20class=\x22affiliateBox\x22>\x0a\x09\x09\x09\x09<div\x20class=\x22divCheck\x22>\x0a\x09\x09\x09\x09\x09<div\x20class=\x22divCheckPos\x22><h4>'+_0x4330f7[_0x30f109(0x160)]()[_0x30f109(0x176)]('\x20','\x0a')+_0x30f109(0x164)+_0x3ab320+_0x30f109(0x198),append+=entryHeader+_0x32791f+entryRemarks;}return document[_0x30f109(0x155)](_0x30f109(0x196))['innerHTML']=intStyle,document[_0x30f109(0x155)](_0x30f109(0x154))[_0x30f109(0x174)]=part1+append+end,document['getElementById'](_0x30f109(0x154))[_0x30f109(0x199)]['display']='block',(append,keywords,entryHeader,entryRemarks,today,date,category,mainTitle,intro,conclusion,header,part1,end,lastPart,plagiarism);}function switchDraft(){var _0x590da3=_0x4e1c5b;document[_0x590da3(0x155)](_0x590da3(0x154))!=null&&(document[_0x590da3(0x155)](_0x590da3(0x154))[_0x590da3(0x199)][_0x590da3(0x1c8)]=_0x590da3(0x1ad)),document[_0x590da3(0x155)](_0x590da3(0x15c))[_0x590da3(0x199)]['display']=_0x590da3(0x1b7),document[_0x590da3(0x155)]('toolBar')[_0x590da3(0x199)]['display']=_0x590da3(0x1b7);}function validateValue(_0x5b2929){var _0x5bab8e=_0x4e1c5b;document[_0x5bab8e(0x155)](_0x5b2929)[_0x5bab8e(0x199)][_0x5bab8e(0x1c9)]=_0x5bab8e(0x16a);}function previewDraft(_0x1342ac,_0x5cc69c){var _0x1caa6e=_0x4e1c5b,_0x10c020=document[_0x1caa6e(0x155)](_0x1342ac);if(_0x5cc69c=='preview'){checkChildren();if(boolPreview==!![]){var _0x283887=[],_0x16d4ff=!![];_0x283887[0x1]=document[_0x1caa6e(0x1aa)](_0x1caa6e(0x152)),_0x283887[0x2]=document[_0x1caa6e(0x1aa)]('textarea'),_0x283887[0x3]=document[_0x1caa6e(0x1aa)](_0x1caa6e(0x1a8));for(var _0x4c1e2f=0x1;_0x4c1e2f<0x3;_0x4c1e2f++){for(var _0x4363ea=0x0;_0x4363ea<_0x283887[_0x4c1e2f][_0x1caa6e(0x16d)];_0x4363ea++){_0x16d4ff&&=_0x283887[_0x4c1e2f][_0x4363ea][_0x1caa6e(0x165)]!='',_0x16d4ff&&=_0x283887[0x3][0x0][_0x1caa6e(0x165)]!=_0x1caa6e(0x1c4);if(_0x283887[_0x4c1e2f][_0x4363ea][_0x1caa6e(0x165)]=='')_0x283887[_0x4c1e2f][_0x4363ea][_0x1caa6e(0x199)]['border']='1px\x20solid\x20salmon';else _0x283887[0x3][0x0][_0x1caa6e(0x165)]=='Category'?_0x283887[0x3][0x0][_0x1caa6e(0x199)][_0x1caa6e(0x1c9)]=_0x1caa6e(0x15e):_0x283887[_0x4c1e2f][_0x4363ea][_0x1caa6e(0x199)][_0x1caa6e(0x1c9)]=_0x1caa6e(0x16a);}}_0x16d4ff==!![]?(previewed=!![],_0x10c020[_0x1caa6e(0x194)]('name','edit'),_0x10c020[_0x1caa6e(0x166)][_0x1caa6e(0x174)]=_0x1caa6e(0x16b),_0x10c020[_0x1caa6e(0x166)][_0x1caa6e(0x199)]['color']=_0x1caa6e(0x189),_0x10c020['style'][_0x1caa6e(0x181)]=_0x1caa6e(0x17d),switchPreview()):alert(_0x1caa6e(0x18b));}else alert(_0x1caa6e(0x1c6));}else _0x10c020[_0x1caa6e(0x194)]('name',_0x1caa6e(0x15c)),_0x10c020[_0x1caa6e(0x166)][_0x1caa6e(0x174)]=_0x1caa6e(0x1c5),_0x10c020[_0x1caa6e(0x166)]['style']['color']='white',_0x10c020[_0x1caa6e(0x199)][_0x1caa6e(0x181)]='#474747',_0x10c020[_0x1caa6e(0x199)][_0x1caa6e(0x1c9)]=_0x1caa6e(0x195),switchDraft();}function submitContent(){var _0xe4bf05=_0x4e1c5b;checkChildren();if(boolSubmit==!![]){if(previewed==!![]){var _0x1448d1=[],_0x417df4=!![];_0x1448d1[0x1]=document[_0xe4bf05(0x1aa)](_0xe4bf05(0x152)),_0x1448d1[0x2]=document['getElementsByTagName'](_0xe4bf05(0x1a3)),_0x1448d1[0x3]=document[_0xe4bf05(0x1aa)](_0xe4bf05(0x1a8));for(var _0x478f62=0x1;_0x478f62<0x3;_0x478f62++){for(var _0x1ade9d=0x0;_0x1ade9d<_0x1448d1[_0x478f62][_0xe4bf05(0x16d)];_0x1ade9d++){_0x417df4&&=_0x1448d1[_0x478f62][_0x1ade9d][_0xe4bf05(0x165)]!='',_0x417df4&&=_0x1448d1[0x3][0x0]['value']!=_0xe4bf05(0x1c4);if(_0x1448d1[_0x478f62][_0x1ade9d][_0xe4bf05(0x165)]=='')_0x1448d1[_0x478f62][_0x1ade9d][_0xe4bf05(0x199)][_0xe4bf05(0x1c9)]=_0xe4bf05(0x15e);else _0x1448d1[0x3][0x0][_0xe4bf05(0x165)]==_0xe4bf05(0x1c4)?_0x1448d1[0x3][0x0]['style'][_0xe4bf05(0x1c9)]=_0xe4bf05(0x15e):_0x1448d1[_0x478f62][_0x1ade9d][_0xe4bf05(0x199)][_0xe4bf05(0x1c9)]=_0xe4bf05(0x16a);}}if(_0x417df4==!![]){if(confirm(_0xe4bf05(0x1b4))){var _0x415f42=urlTitle+',\x20'+imgCover+',\x20'+category+',\x20'+mainTitle+',\x20'+intro+',\x20'+date+',\x20'+author+',\x20'+plagiarism+_0xe4bf05(0x172)+header+'\x0a'+part1+'\x0a'+append+'\x0a'+end+'\x0a'+lastPart,_0x274ad2=_0xe4bf05(0x16c);document[_0xe4bf05(0x155)](_0xe4bf05(0x15c))[_0xe4bf05(0x174)]=_0x274ad2,document[_0xe4bf05(0x155)](_0xe4bf05(0x1c3))[_0xe4bf05(0x165)]=_0xe4bf05(0x18c),document['getElementById'](_0xe4bf05(0x19f))[_0xe4bf05(0x165)]=_0xe4bf05(0x18f),document['getElementById']('frmComment')['value']=_0x415f42,document['getElementById'](_0xe4bf05(0x177))['click'](),document[_0xe4bf05(0x186)][_0xe4bf05(0x159)][_0xe4bf05(0x184)](),alert(_0xe4bf05(0x15d)),window['location'][_0xe4bf05(0x15b)]();}}else alert('Please\x20complete\x20all\x20required\x20fields');}else alert(_0xe4bf05(0x1a5));}else alert(_0xe4bf05(0x17c));}function _0x51da(_0x41b0a6,_0x109b38){var _0x4721f9=_0x4721();return _0x51da=function(_0x51daf0,_0x18a1e4){_0x51daf0=_0x51daf0-0x14f;var _0x462fe2=_0x4721f9[_0x51daf0];return _0x462fe2;},_0x51da(_0x41b0a6,_0x109b38);}function logout(){var _0x16fed2=_0x4e1c5b;sessionStorage[_0x16fed2(0x1ac)]('authName',''),sessionStorage[_0x16fed2(0x1ac)](_0x16fed2(0x173),''),sessionStorage['setItem']('authProfile',''),window[_0x16fed2(0x1ba)]('https://backend.figureddit.com/auth');}
+
+//---------------------------------INTERNAL CSS---------------------------------------
+
+var intStyle = `
+
+a:link {
+	color: #878787;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #878787;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.two:link {
+	color:#474747;
+	text-decoration:underline;
+}
+
+.two:visited {
+	color:#474747;
+	text-decoration: none;
+}
+
+.two:hover {
+	color:#575757;
+	text-decoration: underline;
+}
+
+.three:link {
+	color:#474747;
+	text-decoration: none;
+}
+
+.three:visited {
+	color:#575757;
+	text-decoration: none;
+}
+
+.three:hover {
+	color:#575757;
+}
+
+#contents {
+    display: block;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 300px;
+	min-height: auto;
+	max-width: 760px;
+	min-width: 120px;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#articleTitle {
+    font-size: 44px;
+    color: #474747;
+    text-align: left;
+}
+
+.paragraphs {
+    font-size: 16px;
+    font-weight: 500;
+    color: #474747;
+    letter-spacing: .2px;
+    line-height: 2em;   
+    text-align: justify;
+}
+
+#underTitle {
+    height: 40px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+#dateAuthor {
+    margin-top: 10px;
+    font-size: 14px;
+    display: block;
+    color: #474747;
+    letter-spacing: 0.2px;
+    margin-bottom: 2em;
+}
+
+#dateAuthor h6 {
+    padding-bottom: 2px;
+}
+
+.showImage {
+    width: 100%;
+    height: 428px; 
+    min-width: auto;
+    min-height: auto;
+    object-fit: contain;
+    cursor: default;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.itemTitle {
+    color: #474747;
+}
+
+.affiliateBox {
+    width: 100%;
+    margin-top: 2em;
+    cursor: default;
+    display: block;
+    display: flex;
+    min-height: 60px;
+    transition: 0.2s;
+    border: 2px solid #474747
+}
+
+.affiliateBox h4 {
+    color: white;
+}
+
+.divCheck {
+    width: 140px;
+    height: auto;
+    display: flex;
+	padding:10px;
+    background-color: #474747;
+    border: 1px solid #474747;
+}
+
+.divCheckPos {
+	margin-top: auto; 
+	margin-bottom: auto; 
+	margin-left: auto; 
+	margin-right: auto; 
+	width: auto; 
+	height: auto;
+}
+
+.divCheck h4 {
+    width: auto;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color: white;
+}
+
+.divRating {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: default;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.divRating h1 {
+    color: #474747;
+    text-align: center;
+}
+
+.divRating:hover h1 {
+    color: #474747;
+    text-decoration: underline;
+}
+
+#divShare {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: pink;
+}
+
+#shareButtons {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#aboutAuthor {
+    display: flex;
+    flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: auto;
+	max-width: 760px;
+    width: auto;
+	min-width: 120px;
+    padding-left: 1em;
+    padding-right: 1em;
+   
+}
+
+#divAuthor {
+    width: auto;
+    row-gap: 1em;
+    column-gap: 1em;
+    flex-wrap: wrap;
+    cursor: pointer;
+    max-width: 100%;
+    min-width: 300px;
+    display: inline-flex;
+    border-radius: 8px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.05); 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+
+#divProfile {
+    flex-grow: 1;
+    height: auto;
+    width: 100px;
+    flex-basis: 100px;
+    justify-content: center;
+}
+
+#divProfile img {
+    border-radius: 99px;
+}
+
+#descHeader {
+    height: auto;
+    display: flex;
+    width: 100%;
+    color: #474747;
+}
+
+#descHeader h5 {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 500;
+}
+
+#descAbout {
+    font-weight: 500;
+}
+
+#descAbout h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #575757;
+    letter-spacing: .2px;
+    line-height: 1.3em;   
+    text-align: justify;
+}
+
+#descAbout h5 {
+    color: #474747;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+#readMore {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 300px;
+	min-height: auto;
+	max-width: 760px;
+	min-width: 120px;
+	padding-left: 2em;
+	padding-right: 2em;
+    margin-bottom: 6em;
+}
+
+#readNext {
+    width: 100%;
+    margin-top: 1em;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1em;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nextArticle {
+    height: auto;
+    padding: 4px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-basis: 160px;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.nextArticle:hover h3 {
+    text-decoration: underline;
+}
+
+.nextThumbnail {
+    display: flex;
+    flex-grow: 1;
+    height: auto;
+    flex-basis: 128px;
+    flex-direction: row;
+}
+
+.nextThumbnail img {
+    width: 100%;
+    height: auto;
+    min-width: 128px;
+    min-height: 96px;
+    object-fit: contain;
+}
+
+.nextArticle h3 {
+    color: #474747;
+    text-align: center;
+    cursor: default;
+    word-wrap: break-word;
+}
+`;
+
+
+
+
+
+//force URL change--------------------------------------
+
+var author = sessionStorage.getItem("author");
+var authProfile = sessionStorage.getItem("authProfile");
+var authName = sessionStorage.getItem("authName");
+var authLink = "https://backend.figureddit.com/auth/" + authName;
+window.history.replaceState('new', 'title', authLink);
+
+
+
+//-------------------------CHECK ENTRY IF VALID-----------------------
+
+function checkEntry() {
+
+	var preview = document.getElementById("preview");
+    var previewChild = preview.children.length;
+
+    if(previewChild > 2) {
+
+        document.getElementById("minus").firstElementChild.style.color = "#474747";
+
+	}
+
+    else {
+
+        document.getElementById("minus").firstElementChild.style.color = "lightgrey";
+    }
+	
+}
+
+checkEntry();
+
+
+
+//-------------------CHECK HOW MANY PARAGRAPH IN INTRO/CONCLUSION--------------------------
+
+
+function checkParagraph(value, id) {
+
+    var parag = value.split(/\n/g);
+
+    if ((parag.length > 1) && (value != "")) {
+		document.getElementById(id).style.border = "1px solid salmon";
+        document.getElementById("lbl"+ id).innerHTML = "Only 1 paragraph is allowed. Please check line spacing."
+        document.getElementById("lbl"+ id).style.color = "salmon";
+    }
+    else if ((parag.length == 1) && (value != "")) {
+		document.getElementById(id).style.border = "1px solid lightgrey";
+        document.getElementById("lbl" + id).innerHTML = "&#10004; Good";
+        document.getElementById("lbl"+ id).style.color = "mediumseagreen";
+    }
+
+    else if ((parag.length == 0) || (value == "")) {
+        document.getElementById("lbl"+ id).innerHTML = "This field cannot be empty. Please add 1 paragraph."
+		document.getElementById(id).style.border = "1px solid salmon";
+    }
+
+}
+
+
+//-------------------------CHECK HOW MANY PARAGRAPH IN CONTENTS---------------------
+
+function checkDetails(value, id) {
+
+    var parag = value.split("\n\n");
+
+	if ((parag.length > 0) && (value != "")) {
+		document.getElementById("lbl"+ id).innerHTML = parag.length + " paragraph(s) detected";
+    	document.getElementById("lbl"+ id).style.color = "mediumseagreen";
+		document.getElementById(id).style.border = "1px solid lightgrey";
+	}
+
+	else if ((parag.length == 0) || (value == "")) {
+		document.getElementById("lbl"+ id).innerHTML = "0 paragraph";
+    	document.getElementById("lbl"+ id).style.color = "lightgray";
+		document.getElementById(id).style.border = "1px solid salmon";
+	}
+    
+}
+
+
+//----------------------REMOVE PREVIEW ID---------------------------
+
+function removeEntry() {
+
+	var preview = document.getElementById("preview");
+    var previewChild = (preview.children.length);
+
+    if(previewChild > 2) {
+		
+        document.getElementById("entry" + e).remove();
+		e-=1;
+
+		checkEntry();
+
+		if(document.getElementById("entry"+e) != null) {
+			document.getElementById("entry"+e).scrollIntoView();
+		}
+    }
+}
+
+
+//-------------------------CHECK MINIMUM ENTRIES BEFORE SENDING------------------
+
+var boolPreview = false;
+var boolSubmit = false;
+
+function checkChildren() {
+
+    var preview = document.getElementById("preview");
+    var previewChild = preview.children.length;
+	
+    if(previewChild < 5) {
+
+		boolPreview = false;
+		boolSubmit = false;
+        document.getElementById("submit").firstElementChild.style.color = "lightgrey";
+
+    }
+
+    else {
+
+		boolPreview = true;
+		boolSubmit = true;
+        document.getElementById("submit").firstElementChild.style.color = "#474747";
+
+    }
+
+	return boolPreview, boolSubmit;
+}
+
+checkChildren();
+
+
+//--------------------------------ADD NEW ENTRY--------------------------------
+
+var e = 0;
+var entry = "";
+
+function add(e) {
+	entry = `<div id="entry${e}" class="divChild">
+			<h2 class= "divChildHeader">${e}.</h2>
+			<input type="url" id="imgLink${e}" class="text" placeholder="Image link" oninput="validateValue(this.id)">
+			<input type="text" id="entryTitle${e}" class="text" placeholder="List Title" oninput="validateValue(this.id)">
+			<textarea id="details${e}" class="textarea" placeholder="Contents" cols="44" rows="8" oninput="checkDetails(this.value, this.id)"></textarea>
+			<div style="display: flex; justify-content: right; width:600px; margin-top: 0.5em; margin-bottom: 0.5em;"><h5 id="lbldetails${e}" style="color: lightgray; font-weight: 500;">0 paragraph</h5></div>
+			<div style="display:flex; justify-content: center;">
+			<input type="text" id="remark${e}" class="shortText" placeholder="Remark" oninput="validateValue(this.id)">
+			<input type="url" id="itemLink${e}" class="textLink" placeholder="CTA link" oninput="validateValue(this.id)"></div>
+			</div>`;
+	return entry;
+}
+
+
+function addEntry() {
+
+	e += 1;
+	add(e);
+	var conclusion = document.getElementById("divConclusion");
+	conclusion.insertAdjacentHTML("beforebegin", entry);
+	document.getElementById("entry"+e).scrollIntoView();
+
+	checkEntry();
+	checkChildren();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var append, keywords, entryHeader, entryRemarks, today, date, category, mainTitle, intro, conclusion, header,
+part1, end, lastPart, plagiarism, previewed, imgCover;
+
+function switchPreview() {
+
+	previewed = true;
+	append = "";
+	entryHeader = "";
+	entryRemarks = "";
+	today = new Date();
+	date = (today.getMonth() + 1) + "/" + today.getDate() + "/" + today.getFullYear();
+	category = document.getElementById("selCategory").value;
+	mainTitle = document.getElementById("mainTitle").value;
+	intro = document.getElementById("intro").value;
+	conclusion = document.getElementById("conclusion").value;
+	keywords = document.getElementById("keywords").value;
+	plagiarism = document.getElementById("plagiarism").value;
+	urlTitle = ("https://figureddit.com/articles/" + category + "/" + (mainTitle.replace(/ /g, "-"))).toLowerCase();
+
+
+	document.getElementById("preview").style.display = "none";
+	document.getElementById("toolBar").style.display = "none";
+
+	
+
+	header = `
+			<!DOCTYPE html>
+			<html id="mainHTML" style="scroll-behavior: smooth;">
+			<head>
+				<!-----------------[EDIT] TITLE BASED ON ARTICLE TITLE------------------>
+				<title>${mainTitle} - Figureddit</title>
+				<meta charset="UTF-8">
+				<meta name = "viewport" content="width=device-width , initial-scale=1.0">
+				<meta name = "keywords" content="figureddit, ${keywords}">
+				<meta name = "author" content = "${author} - Figureddit">
+				<meta name = "description" content = "${intro}">
+
+				<meta property="og:site_name" content="Figureddit" />
+				<meta property=“og:title” content=“${mainTitle}" />
+				<meta property="og:description" content="${intro}" />
+				<meta property="og:url" content="${urlTitle}" />
+				<meta property="og:type" content="article" />
+				<meta property="article:publisher" content="https://figureddit.com" />
+				<meta property="article:section" content="tips and reviews" />
+				<meta property="article:tag" content="tips and reviews" />
+				<meta property="og:image" content="${imgLink}" />
+				<meta property="og:image:secure_url" content="${imgLink}" />
+				<meta property="og:image:width" content="760" />
+				<meta property="og:image:height" content="428" />
+				<meta property="twitter:card" content="summary" />
+				<meta name="twitter:title" content="${mainTitle}">
+				<meta property="twitter:image" content="${imgLink}" />
+				<meta property="twitter:site" content="@figureddit" />
+
+				<link rel="canonical" href="https://figureddit.com">
+				<link rel="canonical" href="http://figureddit.com">
+				<link rel="canonical" href="https://www.figureddit.com">
+				<link rel="canonical" href="http://www.figureddit.com">
+				<link rel="canonical" href="https://figuredit.com">
+				<link rel="canonical" href="http://figuredit.com">
+				<link rel="canonical" href="https://www.figuredit.com">
+				<link rel="canonical" href="http://www.figuredit.com">
+				
+				<link rel="preload" href="https://figureddit.com/css-c9t67il/style.css" as="style">
+				<link rel="preload" href="https://figureddit.com/css-c9t67il/articles.css" as="style">
+				<link rel="stylesheet", href="https://figureddit.com/css-c9t67il/articles.css"> 
+				<link rel="stylesheet", href="https://figureddit.com/css-c9t67il/style.css"> 
+				<link rel="icon" type="image/x-icon" href="https://figureddit.com/icons-k7hs75z/favicon.svg">
+				<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap" rel="stylesheet">
+
+				<link rel="preload" href="https://figureddit.com/js-nqadc8p/articles.js" as="script">
+				<link rel="preload" href="https://figureddit.com/js-nqadc8p/functions.js" as="script">
+
+			</head> 
+
+			<body style="min-width: 360px;">
+				<div id="menu">
+				
+					<button type="button" id="Shows" class="btnMenu" onmouseover="hoverCategory(this.id);" onmouseout="outCategory(this.id);" onclick="filterCategory(this.id);">
+						<h6>SHOWS</h6>
+					</button>
+					<div class="divider"></div>
+					<button type="button" id="Movies" class="btnMenu" onmouseover="hoverCategory(this.id);" onmouseout="outCategory(this.id);" onclick="filterCategory(this.id);">
+						<h6>MOVIES</h6>
+					</button>
+					<div class="divider"></div>
+					<button type="button" id="Games" class="btnMenu" onmouseover="hoverCategory(this.id);" onmouseout="outCategory(this.id);" onclick="filterCategory(this.id);">
+						<h6>GAMES</h6>
+					</button>
+					<div class="divider"></div>
+					<button type="button" id="Tech" class="btnMenu" onmouseover="hoverCategory(this.id);" onmouseout="outCategory(this.id);" onclick="filterCategory(this.id);">
+						<h6>TECH</h6>
+					</button>
+					<div class="divider"></div>
+					<button type="button" id="Health" class="btnMenu" onmouseover="hoverCategory(this.id);" onmouseout="outCategory(this.id);" onclick="filterCategory(this.id);">
+						<h6>HEALTH</h6>
+					</button>
+					<div class="divider"></div>
+			
+				</div>
+				<div id="header">
+					<div id="showMenu" onclick="funcMenu();"><img src = "https://figureddit.com/icons-k7hs75z/menu.svg"></div>
+					<div class="logo" id="Home" onclick="filterCategory(this.id);">
+						<img src="https://figureddit.com/icons-k7hs75z/logo.svg">
+						<h1>figureddit.</h1>
+					</div>
+					<div id="divSearch">
+						<div style="height: 63px; width:auto;">
+						<input type="text" id="inputSearch" placeholder="Search.." oninput="useSearch(this.value)" onkeypress="enterSearch(event, this.value)" onfocus="useSearch(this.value)">
+						<img src = "https://figureddit.com/icons-k7hs75z/search.svg" id="btnSearch">
+						</div>
+						<div id="searchList"></div>
+					</div>
+				</div>
+				<div id="subDiv" onclick="bodyFocus()">
+					<div id="contents">`;
+
+
+	part1 = `
+				<!-----------------------TITLE--------------------->
+				<center><h1 id="articleTitle">${mainTitle}</h1></center><br><br>
+				<!--INTRO-->
+				<p class="paragraphs">${intro}</p><br><br>
+				<!---------------[EDIT]UNDER TITLE------------------>
+				<div id="underTitle">
+					<div id="dateAuthor">
+						<h6 id="publisher">BY <a class="two" href="${authProfile}" id="authorName">${author.toUpperCase()}</a></h6>
+						<h6 id="publishDate">PUBLISHED TODAY</h6>
+					</div>
+					
+					<!-- Go to www.addthis.com/dashboard to customize your tools -->
+					<div class="addthis_inline_share_toolbox"></div>
+
+				</div>
+				<br><br>
+				<!---------------------[EDIT]ENTRY ARTICLE------------------------>
+			
+			`;
+
+	end = `	<p class="paragraphs">${conclusion}</p><br><br></div>`;
+
+	lastPart = 
+				`
+					<!------------------------------ABOUT THE AUTHOR------------------->
+		
+					<div id="aboutAuthor" onclick="goToAuthor()">
+						<div id="divAuthor">
+						<div style="flex-grow: 1; flex-basis: 100px; display: flex; justify-content: center;">
+							<div id="divProfile"></div>
+						</div>
+						
+						<div style="display:block; width: 84%; margin-left: auto; margin-right: auto;">
+							<div id="descHeader"> </div>
+							<br> 
+							<div id="descAbout"> </div>
+						</div>
+						</div>
+					</div>
+					<br><br><br>
+
+					<!------------------------------READ MORE------------------------->
+					<div id="readMore">
+						<h3 style="color:#474747; margin-bottom: 6px; font-weight: 700;">Read Next</h3>
+						<div style="width:100%; height: 2px; background-color: #474747; margin-top: auto; margin-bottom: auto;"></div>
+						<div id="readNext">
+						<!--random suggested article here-->
+						</div>
+					</div>
+				</div>
+				<!----------------------FOOTER---------------------------------->
+				<div id="footer">
+					<div id="upperFooter">
+						<div class="footerNewsletter">
+							<form action="https://formsubmit.io/send/6015127b-0795-4aea-bd23-92b2fe3ce1ad" method="POST" autocomplete="off">
+								<label for="txtNewsLetter" id="lblNewsLetter"><h1>Get More Updates <br> From Our Newsletter</h1></label><br>
+								<input name="name" type="text" value="Newsletter" style="display: none;">
+								<input name="txtNewsLetter" type="email" placeholder="Email" id="txtNewsLetter" size="12" required>
+								<textarea name="comment" value="I subscribe to your newsletter." rows="20" cols="30" style="display: none;"></textarea>
+								<button type="submit" id="btnNewsLetter">Subscribe</button>
+							</form>
+						</div>
+						<div class="footerBlock">
+							<ul>
+								<li class="listTitle"><h3>Read More</h3></li><br>
+								<li><a class="one" name="Shows" onclick="filterCategory(this.name)" href="#top">Shows</a></li>
+								<li><a class="one" name="Movies" onclick="filterCategory(this.name)" href="#top">Movies</a></li>
+								<li><a class="one" name="Games" onclick="filterCategory(this.name)" href="#top">Games</a></li>
+								<li><a class="one" name="Tech" onclick="filterCategory(this.name)" href="#top">Tech</a></li>
+								<li><a class="one" name="Health" onclick="filterCategory(this.name)" href="#top">Health</a></li>
+								
+							</ul>
+						</div>
+						<div class="footerBlock">
+							<ul>
+								<li class="listTitle"><h3>Support</h3></li><br>
+								<li><a class="one" href="https://figureddit.com/privacy-policy">Privacy Policy</a></li>
+								<li><a class="one" href="https://figureddit.com/terms-of-use">Terms Of Use</a></li>
+								<li><a class="one" href="https://figureddit.com/contact-us">Contact Us</a></li>
+							</ul>
+						</div>
+
+						<div class="footerBlock">
+							<ul>
+								<li class="listTitle"><h3>Links</h3></li><br>
+								<li><a class="one" href="#">Shopee</a></li>
+								<li><a class="one" href="#">Youtube</a></li>
+								<li><a class="one" href="#">Facebook</a></li>
+								<li><a class="one" href="#">Portfolio</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footerBar"><h5>&#169; Figureddit 2023. All Rights Reserved.</h5></div>
+				</div>
+			
+			
+			<script type="text/javascript" defer src="https://figureddit.com/js-nqadc8p/functions.js"></script>
+			<script type="text/javascript" defer src="https://figureddit.com/js-nqadc8p/articles.js"></script>
+
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-634941e1013d2b83"></script>
+
+		</body>
+		</html>
+		`;
+
+
+	
+	for(var i=1; i <= e; i++) {
+
+		var imgLink = document.getElementById("imgLink" + i).value;
+		var entryTitle = document.getElementById("entryTitle" + i).value;
+		var itemLink = document.getElementById("itemLink" + i).value;
+		var remark = document.getElementById("remark" + i).value;
+		var entryParag = "";
+
+		//check paragraph count
+
+		var getParag = document.getElementById("details" + i).value;
+		var parag = getParag.split("\n\n");
+
+		if (i==1) {
+			imgCover = document.getElementById("imgLink" + i).value;
+		}
+
+		entryHeader =`
+			<!--SHOW IMAGE (DON'T FORGET ALT+TEXT)-->
+			<img class="showImage" src="${imgLink}" alt="${entryTitle}-${mainTitle}-${keywords}-Figureddit">
+			<br><br><br>
+			<!--[EDIT]ITEM-->
+			<h1 class="itemTitle">${i}. <a class="two" href="${itemLink}">${entryTitle}</a></h1><br>
+			<!--[EDIT]SUPPORTING DETAILS-->
+			`;
+
+			for(var z=0; z < parag.length; z++) {
+				entryParag += `<p class = "paragraphs">${parag[z]}</p><br>`;			
+			}
+		
+		entryRemarks = 
+
+			`<!--AFFILIATE LINK-->
+			<a class="three" href="${itemLink}"><div class="affiliateBox">
+				<div class="divCheck">
+					<div class="divCheckPos"><h4>${remark.toUpperCase().replace(" ", "\n")}</h4></div>
+				</div>
+				<div class="divRating">
+					<h1>${entryTitle}</h1>
+				</div>
+			</div></a><br><br><br>
+			`;
+		
+		append += entryHeader + entryParag + entryRemarks;
+	}
+
+	document.getElementById("intStyle").innerHTML = intStyle;
+	document.getElementById("contents").innerHTML = part1 + append + end;
+	document.getElementById("contents").style.display = "block";
+
+	return append, keywords, entryHeader, entryRemarks, today, date, category, mainTitle, intro, conclusion, header,
+	part1, end, lastPart, plagiarism, imgCover;
+
+}
+
+
+function switchDraft() {
+
+	if(document.getElementById("contents") != null) {
+		document.getElementById("contents").style.display = "none";
+	}
+	document.getElementById("preview").style.display = "block";
+	document.getElementById("toolBar").style.display = "block";
+
+}
+
+
+function validateValue(id) {
+
+	document.getElementById(id).style.border = "1px solid lightgrey";
+}
+
+
+
+function previewDraft(id, name) {
+
+	var button = document.getElementById(id);
+
+	if(name == "preview") {
+
+		checkChildren();
+
+		if(boolPreview == true) {
+
+			var inputChecker = [];
+			var initBool = true;
+
+			inputChecker[1] = document.getElementsByTagName("input");
+			inputChecker[2] = document.getElementsByTagName("textarea");
+			inputChecker[3] = document.getElementsByTagName("select");
+
+			for(var i=1; i < 3; i++) {
+
+				for(var z=0; z < inputChecker[i].length; z++) {
+
+					initBool &&= (inputChecker[i][z].value!="");
+					initBool &&= (inputChecker[3][0].value!="Category");
+
+					if(inputChecker[i][z].value =="")  {
+						inputChecker[i][z].style.border = "1px solid salmon";
+					}
+					else if(inputChecker[3][0].value =="Category")  {
+						inputChecker[3][0].style.border = "1px solid salmon";
+					}
+					else {
+						inputChecker[i][z].style.border = "1px solid lightgrey";
+					}
+					
+				}
+			}
+
+			
+
+			if(initBool == true) {
+			
+				previewed = true;
+				button.setAttribute("name", "edit");
+				button.firstElementChild.innerHTML = "Edit";
+				button.firstElementChild.style.color = "#474747";
+				button.style.backgroundColor = "white";	
+
+				switchPreview();
+
+			}
+			else {
+				alert("Please complete all required fields");
+			}
+		}
+
+		else {
+			alert("Please add at least 3 listings");
+		}		
+	}
+
+	else {
+		
+		button.setAttribute("name", "preview");
+		button.firstElementChild.innerHTML = "Preview";
+		button.firstElementChild.style.color = "white";
+		button.style.backgroundColor = "#474747";
+		button.style.border = "1px solid white";
+
+		switchDraft();
+	}
+
+}
+
+
+
+function submitContent() {
+	
+	//check if at least 3 entries already
+	checkChildren();
+
+	if (boolSubmit == true) {
+
+		if (previewed == true) {
+
+			var inputChecker = [];
+			var initBool = true;
+
+			inputChecker[1] = document.getElementsByTagName("input");
+			inputChecker[2] = document.getElementsByTagName("textarea");
+			inputChecker[3] = document.getElementsByTagName("select");
+
+			for(var i=1; i < 3; i++) {
+
+				for(var z=0; z < inputChecker[i].length; z++) {
+
+					initBool &&= (inputChecker[i][z].value!="");
+					initBool &&= (inputChecker[3][0].value!="Category");
+
+					if(inputChecker[i][z].value =="")  {
+						inputChecker[i][z].style.border = "1px solid salmon";
+					}
+					else if(inputChecker[3][0].value =="Category")  {
+						inputChecker[3][0].style.border = "1px solid salmon";
+					}
+					else {
+						inputChecker[i][z].style.border = "1px solid lightgrey";
+					}
+					
+				}
+			}
+
+			if(initBool == true) {
+			
+				if(confirm("Are you sure you want to submit the content?")) {
+
+					var submitMsg = urlTitle + ", " + imgCover + ", " + category + ", " + mainTitle + ", " + intro + ", " + date + ", " + author + ", " + plagiarism + "_____Code: " + header + 
+					"\n" + part1 + "\n" + append + "\n" + end + "\n" + lastPart;
+					
+					var appendForm = 
+								`<form id="contactform" style="display: none;"action="https://formsubmit.io/send/6015127b-0795-4aea-bd23-92b2fe3ce1ad" method="POST">
+									<input name="name" type="text" id="frmName">
+									<input name="email" type="email" id="frmEmail">
+									<textarea name="comment" id="frmComment" rows="3"></textarea>
+									<input name="_formsubmit_id" type="text" style="display:none">
+									<input value="Submit" type="submit" id="frmSubmit">
+								</form>`;
+
+					document.getElementById("preview").innerHTML = appendForm;
+					document.getElementById("frmName").value = "papa dc";
+					document.getElementById("frmEmail").value = "figureddit@gmail.com";
+					document.getElementById("frmComment").value = submitMsg;
+					document.getElementById("frmSubmit").click();
+					document.forms['contactForm'].submit();
+					
+					alert('Submitted successfully');
+					window.location.reload(); 
+
+					}
+				}
+
+			else {
+
+				alert("Please complete all required fields");	
+
+			}
+
+		}
+
+		else {
+			alert("Please preview your work before submitting");
+		}
+	}
+
+	else {
+		
+		alert("Please add at least 3 listings before preview");
+	}
+}
+
+
+
+function logout() {
+
+	sessionStorage.setItem("authName", "");
+    sessionStorage.setItem("author", "");
+    sessionStorage.setItem("authProfile", "");
+	window.location("https://backend.figureddit.com/auth");
+
+}
